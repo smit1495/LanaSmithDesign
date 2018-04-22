@@ -66,7 +66,7 @@ table {
 
 /** BODY **/
 body{
-    background-color: #ececec;
+    background-color: #1e1e1e;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -83,8 +83,10 @@ body{
     }
     /** NAME **/
         .namelogo{
-            background-color: #6AA0A0;
+            background-color: #1e1e1e;
             text-align: center;
+            height: 120px;
+           
         }
 
         .bigscreen{
@@ -107,12 +109,19 @@ body{
 
     /** NAVIGATION **/
         .topnav{
-            background-color: #6AA0A0;
+            background-color: #1e1e1e;
             height: 30px;
+            width: 960px;
+            margin: 0 auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 90px;
+            
         }
         .abig{
             text-decoration: inherit;
-            color:  #F0E9C3;
+            color:  #FFFFFF;
             display: block;
             float: left;
             padding: 7px 20px 7px 20px;
@@ -120,12 +129,12 @@ body{
         }
 
         .abig:hover{
-            background-color: #588a8a;
+            background-color: #474747;
 
         }
 
         .activelink{
-            background-color: #4e7b7b;
+            background-color: #474747;
             font-weight: 500;
         }
 
@@ -252,20 +261,38 @@ body{
                 }
             }
 /** MAIN **/
+
+    /** PROFILE PICTURE **/    
+        .profilepicturehalf{
+            height: 700px;
+            position: absolute;
+            right: 0;
+        }
+
+        .profilebox{
+            width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
     /** TEXT **/
+       
+    
         .h1hometext{
             font-family: 'Roboto', sans-serif;
             font-size: 60px;
-            text-align: center;
-            padding: 100px 0 0 0;
             font-weight: 600;
-            color: #333333;
+            color: #FFFFFF;
+            position: absolute;
+            top: 220px;
+            left: -100px;
+            
         }
         .h2hometextwrapper{
             width: 500px;
             margin: 0 auto;
             padding: 50px 0 0 0;
-            color: #333333;
+            color: #FFFFFF;
         }
         .h2hometext{
             font-family: 'Roboto', sans-serif;
@@ -329,7 +356,7 @@ body{
             }
 /** FOOTER **/
     .footertextwrapper{
-        background-color: #6AA0A0;
+        background-color: #1e1e1e;
         height: 35px;
         position: fixed;
         bottom: 0;
@@ -340,6 +367,7 @@ body{
         font-family: 'Roboto', sans-serif;
         text-align: center;
         padding: 10px;
+        color: #FFFFFF;
     }
 
 /** WEB DEV **/
@@ -373,7 +401,7 @@ body{
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
             margin: 5px 0 0 0;
-            color: #404040;
+            color: #FFFFFF;
         }
 
     /** INTRO **/
@@ -389,7 +417,7 @@ body{
                 font-family: 'Roboto', sans-serif;
                 font-size: 40px;
                 font-weight: bold;
-                color: #404040;
+                color: #FFFFFF;
             }
     /** ARROW **/
         .webdevarrow{
@@ -476,7 +504,7 @@ body{
             font-family: 'Roboto', sans-serif;
             font-size: 40px;
             font-weight: bold;
-            color: #404040;
+            color: #FFFFFF;
             text-align: center;
             margin: 0 0 50px 0;
             
@@ -621,7 +649,7 @@ body{
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
         font-weight: bold;
-        color: #404040;
+        color: #FFFFFF;
         text-align: center;
     }
 
