@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  text-align:center;
+  background-color: #CEFFFE;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  color: #A8A9FF;
+}
+.cat{
+  height: 100px;
+  margin: 30px 0px 0px;
+}
+.button{
+  position: relative;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #ffc6e4;
+  box-shadow: 0 10px 0 0 #ffa0d2;
+  border: none;
+  top: 0px;
+  font-size: 30px;
+  line-height: 50px;
+  transition: 0.5s;
+  color: #E590BC;
+  overflow: hidden; 
+  outline: none;
+}
+.like{
+  position: absolute;
+  left: 45px;
+  top: 0;
+  font-family: 'Pacifico', cursive;
+  transition: 1s;
+}
+.heart{
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  transition: 1s;
+  
+}
+.thanks{
+  position:absolute;
+  left: 25px;
+  top: 100px;
+  font-family: 'Pacifico', cursive;
+  transition: 0.5s;
+}
+
+/*** HOVER ***/
+
+.button:hover{
+  box-shadow: 0 5px 0 0 #ffa0d2;
+  transform: translateY(5px);
+}
+.button:hover .like{
+  transform: translateY(-50px);
+  opacity: 0;
+}
+.button:hover .heart{
+  transform: translateY(-45px) scale(1.5);
+  color: #ff44a8;
+}
+.button:hover .thanks{
+  transform: translateY(-45px) scale(.5);
+}
+
+/*** ACTIVE ***/
+.button:active{
+  box-shadow: 0 2px 0 0 #ffa0d2;
+  transform: translateY(8px);
+}
+.button:active .like{
+  transform: translateY(-50px);
+  opacity: 0;
+}
+.button:active .heart{
+  transform: translateY(-100px);
+  opacity: 0;
+}
+.button:active .thanks{
+  transform: translateY(-98px) scale(1);
+}
