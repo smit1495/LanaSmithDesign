@@ -158,8 +158,8 @@ body{
     
     /** MOBILE NAVIGATION **/
         @media only screen and (max-width: 762px) {
-
             
+                    
             /** LOGO REPLACEMENT  & READY FOR MOBILE **/
             .bigscreen{
                 display:none;
@@ -182,6 +182,8 @@ body{
             padding: 0 3px 0 3px;
             position: absolute;
             top: 63px;
+            background-color: #1e1e1e;
+            color: #ffffff;
             }
 
             .navicon{
@@ -190,7 +192,7 @@ body{
 
             }
             .navicon:hover{
-                background-color: #588a8a;
+                background-color: #1e1e1e;
                 border-radius: 10px;
 
             }
@@ -206,16 +208,22 @@ body{
             display: block;
             padding: 7px 20px 7px 20px;
             font-family: 'Roboto', sans-serif;
-            background-color:#6AA0A0;
+            background-color:#474747;
+            color: #ffffff;
             }
             
             .activelink{
-            background-color:#4e7b7b;
+            background-color:#2f2f2f;
             font-weight: 500;
             }
             
             .asmall:hover{
-            background-color: #588a8a;
+            background-color: #2f2f2f;
+
+            }
+            
+            .asmall:active{
+            background-color: #2f2f2f;
 
             }
             
@@ -288,35 +296,8 @@ body{
             left: -100px;
             
         }
-        .h2hometextwrapper{
-            width: 500px;
-            margin: 0 auto;
-            padding: 50px 0 0 0;
-            color: #FFFFFF;
-        }
-        .h2hometext{
-            font-family: 'Roboto', sans-serif;
-            font-size: 30px;
-            text-align: center;
-        }
-
-        
-
-    /** ICONS **/
-        .alltheicons{
-            margin: 0 auto;
-            width: 972px;
-            padding: 50px 0 0 0;
-
-        }
-        .homeicons{
-            height: 200px;
-            padding: 20px;
-        }
-        .homeicons:hover{
-            transform: scale(1.05);
-            transition: 0.5s ease;
-        }
+       
+   
 
  @media only screen and (max-width: 987px) {
      /** TEXT **/
@@ -343,17 +324,7 @@ body{
      
 }
 
-@media only screen and (max-width: 320px) {
-                
-    .alltheicons{
-        margin: 0 auto;
-        width: 190px;
-    }
-    
-    .homeicons{
-        height: 170px;
-    }
-            }
+
 /** FOOTER **/
     .footertextwrapper{
         background-color: #1e1e1e;
@@ -903,3 +874,63 @@ body{
     width: 300px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    
+   
+    /** INDEX **/
+    .navicon{
+        top: 5px;
+    }
+    .dropdownnav{
+        top: 56px;
+    }
+    
+    .dropdownnavopen{
+        top: 56px;
+    }
+    
+    .namelogo{
+        width: 375px;
+        height: 145px;
+    }   
+                
+    .h1hometext{
+        font-size: 30px;
+        left: 10px;
+        top: 150px;
+    }
+    
+    .profilepicturehalf{
+        height: 500px;
+        left: 124px;
+        top: 37px;
+    }
+    
+    .footertext{
+        width: 375px;
+    }
+    
+    
+    /** WEB DEV **/
+    .pageintro{
+        font-size: 20px;
+    }
+    
+    .webdevtextwrapper{
+        width: 366px;
+    }
+    
+    .webdevproject{
+        width: 366px;
+    }
+    
+    .webimg{
+        height: 300px;
+    }
+    
+    .webdevname{
+        width: 300px;
+    }
+    
+            }
