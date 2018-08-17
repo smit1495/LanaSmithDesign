@@ -160,7 +160,69 @@ body{
         @media only screen and (max-width: 762px) {
             
                     
-            /** LOGO REPLACEMENT  & READY FOR MOBILE **/
+            
+
+            
+        }
+            
+            /** ANIMATION FOR NAVIGATION MENU **/
+            @keyframes fadeout{
+                0%{
+                    transform: translate(0px, 0px);
+                    opacity: 1;
+                }
+                100%{
+                    transform: translate(-170px, 0px);
+                    opacity: 0;
+                }
+            }
+
+            @keyframes fadein{
+                0%{
+                    transform: translate(-170px, 0px);
+                    opacity: 0;
+                }
+                100%{
+                    transform: translate(0px, 0px);
+                    opacity: 1;
+                }
+            }
+/** MAIN **/
+
+    /** PROFILE PICTURE **/    
+        .profilepicture{
+            height: 600px;
+            position: absolute;
+            right: 0;
+            top: 50px;
+        }
+
+        .profilebox{
+            width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+
+    /** TEXT **/
+       
+    
+        .h1hometext{
+            font-family: 'Roboto', sans-serif;
+            font-size: 60px;
+            font-weight: 600;
+            color: #FFFFFF;
+            position: absolute;
+            top: 400px;
+            left: -100px;
+            
+        }
+       
+   
+
+ @media only screen and (max-width: 926px) {
+     
+     /** LOGO REPLACEMENT  & READY FOR MOBILE **/
             .bigscreen{
                 display:none;
                 position: absolute;
@@ -197,8 +259,6 @@ body{
 
             }
             
-            
-
             /** TEXT DECORATION **/
             
             
@@ -244,66 +304,17 @@ body{
             animation-fill-mode: forwards;
             }
 
-        }
-            
-            /** ANIMATION FOR NAVIGATION MENU **/
-            @keyframes fadeout{
-                0%{
-                    transform: translate(0px, 0px);
-                    opacity: 1;
-                }
-                100%{
-                    transform: translate(-170px, 0px);
-                    opacity: 0;
-                }
-            }
-
-            @keyframes fadein{
-                0%{
-                    transform: translate(-170px, 0px);
-                    opacity: 0;
-                }
-                100%{
-                    transform: translate(0px, 0px);
-                    opacity: 1;
-                }
-            }
-/** MAIN **/
-
-    /** PROFILE PICTURE **/    
-        .profilepicturehalf{
-            height: 700px;
-            position: absolute;
-            right: 0;
-        }
-
-        .profilebox{
-            width: 600px;
-            margin: 0 auto;
-            position: relative;
-        }
-
-    /** TEXT **/
-       
-    
-        .h1hometext{
-            font-family: 'Roboto', sans-serif;
-            font-size: 60px;
-            font-weight: 600;
-            color: #FFFFFF;
-            position: absolute;
-            top: 220px;
-            left: -100px;
-            
-        }
-       
-   
-
- @media only screen and (max-width: 987px) {
+     
      /** TEXT **/
+     
      .h1hometext{
-         font-size: 40px;
-     }
+            font-size: 40px;
+            position: absolute;
+            top: 400px;
+            left: -40px;
+            
+        }
+     
      .h2hometextwrapper{
             width: 330px;
         }
@@ -811,6 +822,8 @@ body{
         }
     }
 
+
+
 /** UX DESIGN **/
 /**TEXT**/
 .uxdesigntitle{
@@ -875,9 +888,9 @@ body{
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 674px) {
     
-   
+ 
     /** INDEX **/
     .navicon{
         top: 5px;
@@ -893,18 +906,22 @@ body{
     .namelogo{
         width: 375px;
         height: 145px;
+        margin: 0 auto;
     }   
                 
     .h1hometext{
-        font-size: 30px;
-        left: 10px;
-        top: 150px;
+        font-size: 20px;
+        left: -20px;
+        top: 220px;
     }
     
-    .profilepicturehalf{
-        height: 500px;
-        left: 124px;
+    .profilepicture{
+        height: 300px;
         top: 37px;
+    }
+    
+    .profilebox{
+        width: 300px;
     }
     
     .footertext{
