@@ -978,3 +978,63 @@ body{
     }
     
             }
+
+/** VIDEO **/
+/** VIDEO **/
+    /** TEXTT **/
+    .videotextwrapper{
+        width: 256px;
+    }
+
+    /** VIDEO PLAYER **/
+    #video-player{
+        width: 300px;
+        height: 170px;
+
+    }
+    .video-player-container{
+        width: 300px;
+    }
+
+    /** VIDEO LIST **/
+    .video-list-item{
+        width: 150px;
+    }
+
+    .video-play-list{
+        width: 340px;
+    }
+
+    .video-list{
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+        top: -110px;
+    }
+
+    .video-list-item_{
+        width: 150px;
+        height: 95px;
+    }
+
+   
+    /** CONTROLS **/
+
+    .video-controls{
+        top: 200px;
+    }
+    
+
+   
+
+.videoarrow{
+            height: 30px;
+            margin: 0 0 30px 0;
+            padding: 910px 0 30px 0;
+        }
+
+        .webdevarrow:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+
+        }
