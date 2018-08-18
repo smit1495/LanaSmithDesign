@@ -934,6 +934,22 @@ body{
         margin: 0 auto;
     }
     
+    /** AFTER CLICK **/
+    .ex{
+        top: 148px;
+        
+    }
+    
+    .overlay{
+        top: 50px;
+    }
+        
+    .pic2{
+        width: 300px;
+        top: 80px;
+        padding: 10px 10px 20px 10px;
+    }
+    
     /** WEB DEV **/
     .pageintro{
         font-size: 20px;
