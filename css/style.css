@@ -928,18 +928,29 @@ body{
         width: 375px;
     }
     
+    /** PHOTOGRAPHY **/
+    .phototextwrapper{
+        width: 120px;
+        margin: 0 auto;
+    }
     
     /** WEB DEV **/
     .pageintro{
         font-size: 20px;
+        margin: 0 auto;
     }
     
     .webdevtextwrapper{
         width: 366px;
     }
     
+    .webimgcontainer{
+            margin: 0 auto;
+            width: 360px;
+        }
+    
     .webdevproject{
-        width: 366px;
+        width: 300px;
     }
     
     .webimg{
