@@ -475,19 +475,19 @@ body{
         .ill{
             width: 304px;
             position: absolute;   
-            left: 200px;
+            left: 0px;
         }
 
         .phoshop{
             width: 304px;
             float: right;
             position: absolute;
-            left: 600px;
+            left: 400px;
         }
 
         .webdevimageswrapper{
             margin: 0 auto;
-            width: 1103px;
+            width: 700px;
             position: relative;
         }
 
@@ -531,44 +531,7 @@ body{
             padding: 0 0 70px 0;
         }
         
-@media only screen and (max-width: 1052px) {
-    c
-    .webdevimageswrapper{
-        width: 800px;
-        text-align: center;
-    }
-    .ill{
-            left: 50px;
-        }
-    .phoshop{
-            left: 450px;
-        }
-    .sizeme{
-            font-size: 25px
-        }
-}
-@media only screen and (max-width: 762px) {
-    .graphictextwrapper{
-        width: 200px;
-        text-align: center;
-    }
-    .webdevimageswrapper{
-        width: 450px;
-    }
-    .ill{
-            left: 50px;
-            width: 155px;
-        }
-    .phoshop{
-            left: 250px;
-            width: 155px;
-        }
-    .sizeme{
-            font-size: 20px
-        }
-    .graimg{
-            width: 150px;
-        }
+
 }
 /** PHOTOGRAPHY **/
     /** IMG **/
@@ -846,10 +809,7 @@ body{
             transition: 0.1s;
 
         }
-    @media only screen and (max-width: 1052px) {
-        .videotextwrapper{
-        }
-    }
+
 
 
 
@@ -916,6 +876,76 @@ body{
     width: 300px;
     }
 }
+
+    @media only screen and (max-width: 1052px) {
+        .videotextwrapper{
+        }
+        
+        /** GRAPHIC DESIGN **/
+
+@media only screen and (max-width: 1052px) {
+    
+    .graphictextwrapper{
+        width:560px;    
+    }
+    
+    .pageintro{
+        width: 560px;
+    }
+    
+    .webdevimageswrapper{
+        width: 500px;
+        text-align: center;
+        }
+    .ill{
+            left: 0px;
+            width: 200px;
+        }
+    .phoshop{
+            left: 300px;
+            width: 200px;
+        }
+    .sizeme{
+            font-size: 25px
+        }
+    .graimgwrapper{
+            width: 200px;
+        }
+
+.graimgicon{
+    width: 200px;
+}
+}
+@media only screen and (max-width: 762px) {
+    .graphictextwrapper{
+        width: 370px;
+        text-align: center;
+    }
+    .webdevimageswrapper{
+        width: 350px;
+    }
+    .ill{
+            left: 0px;
+            width: 150px;
+        }
+    .phoshop{
+            left: 200px;
+            width: 150px;
+        }
+    .sizeme{
+            font-size: 20px
+        }
+    .graimgicon{
+            width: 150px;
+        }
+    .pageintro{
+        font-size: 20px;
+        width: 370px;
+    }
+    
+    .graimgwrapper{
+        width: 150px;
+    }
 
 @media only screen and (max-width: 674px) {
     
@@ -1006,7 +1036,84 @@ body{
         width: 300px;
     }
     
+    /** GRAPHIC DESIGN **/
+
+    .graphictextwrapper{
+        width: 370px;
+        text-align: center;
+    }
+    .webdevimageswrapper{
+        width: 310px;
+    }
+    .ill{
+            left: 0px;
+            width: 150px;
+        }
+    .phoshop{
+            left: 160px;
+            width: 150px;
+        }
+    .sizeme{
+            font-size: 20px
+        }
+    .graimgicon{
+            width: 150px;
+        }
+    .pageintro{
+        font-size: 17px;
+        width: 320px;
+    }
+    
+    .graimgwrapper{
+        width: 150px;
+    }
+    
+/** VIDEO **/
+    /** TEXTT **/
+    .videotextwrapper{
+        width: 256px;
+    }
+
+    /** VIDEO PLAYER **/
+    #video-player{
+        width: 300px;
+        height: 170px;
+
+    }
+    .video-player-container{
+        width: 300px;
+    }
+
+    /** VIDEO LIST **/
+    .video-list-item{
+        width: 150px;
+    }
+
+    .video-play-list{
+        width: 340px;
+    }
+
+    .video-list{
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+        top: -110px;
+    }
+
+    .video-list-item_{
+        width: 150px;
+        height: 95px;
+    }
+
+   
+    /** CONTROLS **/
+
+    .video-controls{
+        top: 200px;
+    }
             }
+
+
 
 /** VIDEO **/
 /** VIDEO **/
