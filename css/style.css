@@ -437,19 +437,14 @@ body{
 /** ICONS **/
         .graimgicon{
             width: 300px;
-            border-style: solid;
-            border-color: rgba(165, 165, 165, 0.51);
-            border-width: 0px;
-            box-shadow: 0px 4px 0px rgba(165, 165, 165, 0.51);
+            
             border-radius: 150px 150px 150px 150px;
         }
 
         .graimgicon:hover{
-                    box-shadow: 0px 5px 0px rgba(165, 165, 165, 0.51);
                     transform: scale(1.02);
                 }
         .graimgicon:active{
-                    box-shadow: 0px 2px 0px rgba(165, 165, 165, 0.51);
                     transform: scale(1);
                 }
     
@@ -476,18 +471,13 @@ body{
         
         .graimg{
             width: 300px;
-            border-style: solid;
-            border-color: #BCBCBC;
-            border-width: 2px;
-            box-shadow: 2px 2px 10px #BCBCBC;
+            
         }
 
         .graimg:hover{
-                    box-shadow: 5px 5px 10px #BCBCBC;
                     transform: scale(1.02);
                 }
         .graimg:active{
-                    box-shadow: 2px 2px 10px #BCBCBC;
                     transform: scale(1);
                 }
         .ill{
@@ -553,14 +543,30 @@ body{
 }
 /** PHOTOGRAPHY **/
     /** IMG **/
-    .imagegallery{
+   /** .imagegallery{
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        max-width: 1060px;
+        width: 600px;
         align-items: center; 
 
-    }
+    } **/
+
+.photocontainer{
+    width: 1500px;
+    overflow: hidden;
+    background-color:#d91a81;
+    padding: 100px;
+}
+.imagegallery{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    align-items: center;
+}
+
+
     /** AFTER CLICK **/
     .overlay{
         position: fixed;
@@ -591,7 +597,6 @@ body{
 
     .image{
         margin: 10px;
-        box-shadow: 0px 0px 15px #888888;
         width: 310px;
         border-style: solid;
         border-width: 1px;
@@ -599,7 +604,6 @@ body{
         padding: 10px 10px 50px 10px;
         flex-grow: 1;
         flex-shrink: 1;
-        max-width: 320px;
         background-color: white;
 
     }
@@ -961,8 +965,16 @@ body{
         width: 370px;
     }
     
+    .phopho{
+        width: 120px;
+        font-size: 20px;
+    }
+    
     .graimgwrapper{
         width: 150px;
+    }
+    .phototextwrapper{
+        width: 120px;
     }
 
 @media only screen and (max-width: 674px) {
@@ -1084,6 +1096,11 @@ body{
     
     .graimgwrapper{
         width: 150px;
+    }
+    
+    /** PHOTOGRAPHY **/
+    .phototextwrapper{
+        width: 100px;
     }
     
 /** VIDEO **/
