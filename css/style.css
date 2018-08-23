@@ -452,9 +452,27 @@ body{
                     box-shadow: 0px 2px 0px rgba(165, 165, 165, 0.51);
                     transform: scale(1);
                 }
-
+    
 
 /** IMAGES **/
+
+.webdevimageswrapperill{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.webdevimageswrapperpho{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.phoshoppho{
+            width: 304px;
+            float: right;
+            position: absolute;
+            left: 0px;
+        }
         
         .graimg{
             width: 300px;
