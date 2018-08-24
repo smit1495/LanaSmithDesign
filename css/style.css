@@ -837,9 +837,15 @@ body{
 
 /** UX DESIGN **/
 /**TEXT**/
+.uxtitlecontainer{
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
 .uxdesigntitle{
     text-align: center;
     margin-top: 40px;
+    width: 600px;
 }
 
 .uxdes{
@@ -934,9 +940,36 @@ body{
             width: 200px;
         }
 
-.graimgicon{
-    width: 200px;
-}
+    .graimgicon{
+        width: 200px;
+    }
+    
+    /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 450px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:450px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 550px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 800px;
+    }
+    .uxdesignfinalpdf{
+        width: 800px;
+
+    }
 }
 @media only screen and (max-width: 762px) {
     .graphictextwrapper{
@@ -977,6 +1010,33 @@ body{
         width: 120px;
     }
 
+        /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 300px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:300px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 550px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .uxdesignfinalpdf{
+        width: 600px;
+
+    }
+    
 @media only screen and (max-width: 674px) {
     
  
@@ -1209,3 +1269,30 @@ body{
             transition: 0.1s;
 
         }
+    
+            /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 250px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:250px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 450px;
+    }
+    .uxdesignfinalpdf{
+        width: 450px;
+
+    }
