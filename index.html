@@ -1,82 +1,440 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="font/Roboto-Regular.ttf" rel="stylesheet">
-    <script src="js/script.js" defer></script>
-    <meta name="viewport" content="width=320, initial-scale=1.0">
-    <link rel="icon" href="img/lanalogoblack.ico">
-</head>
-<body class="clearfix">
-    <header>
-       <!-- LOGO HEADER -->
-       <a class="getridofthisstyle" href="index.html"><div class="namelogo">
-           
-           <img class="lanasmithname bigscreen" src="img/lanasmithname.png">
-           <img class="smile bigscreen" src="img/lanalogo.png">
-           <img class="lanalogo smallscreen" src="img/lanalogo.png">
-           
-           </div></a>
-       <!-- NAVIGATION -->
-        <div class="topnav">
-            <a class="abig activelink" >Home</a>
-            <a class="abig" href="webdev.html">Web Development</a>
-            <a class="abig" href="graphic.html">Graphic Design</a>
-            <a class="abig" href="photo.html">Photography</a>
-            <a class="abig" href="video.html">Videography</a>
-            <a class="abig" href="uxdesign.html">User Experience Design</a>
-            <a class="abig" href="about.html">About</a>
-            
-            <img class="navicon" id="navicon" src="img/hamburger.png" onclick="toggleMenu()">
-            
-            <div class="dropdownnav" id="dropdownnav">
-            <a class="asmall activelink">Home</a>
-            <a class="asmall" href="webdev.html">Web Development</a>
-            <a class="asmall" href="graphic.html">Graphic Design</a>
-            <a class="asmall" href="photo.html">Photography</a>
-            <a class="asmall" href="video.html">Videography</a>
-            <a class="asmall" href="uxdesign.html">User Experience Design</a>
-            <a class="asmall" href="about.html">About</a>
+    <head>
+        <meta charset="UTF-8">
+        <title>lanasdesign</title>
+        <link rel="stylesheet" type="text/css" href="css/lanasdesignstyle.css">
+        <link href="font/Roboto-Regular.ttf" rel="stylesheet">
+        <script src="js/script.js" defer></script>
+        <meta name="viewport" content="width=320, initial-scale=1.0">
+        <link rel="icon" href="img/lanalogoblack.ico">
+    </head>
+    <body>
+       <div class="bodycontainer">
+        <header>
+            <div class="header">
+                <div class="headertextcontainer">
+                    <p class="headertext">lanasdesign</p>
+                </div>
             </div>
-        </div>
-    </header>
-    
-    <main>
-        <div class="profilebox">
-        <img class="profilepicture" src="img/LanaSmithPicture.png">
+        </header>
+        <main>
+            
+            <!-- ME -->
+            <div class="titletitle metitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        me
+                    </p>
+                </div>
+            </div>
+            
+            <img class="lanasmithpic" src="img/lanasmith.png" alt="LanaSmith">
+            <div class="circle"></div>
+            
+            
+            <div class="metextcontainer">
+            <p class="nametext">Lana Smith</p>
+            
+            <p class="quotetext">"Work harder get smarter."</p>
+            
+            <p class="paragraphtext">
+                I am a recent graduate at Algonquin College. I have completed two years of Interactive Media Design. I have always had a passion for Photography, Videography and Graphic Design. During my studies, I found out, I also love Web Development!
+                <br><br>
+                I am constantly working on new projects and will always be changing and updating my portfolio, so feel free to check back in. 
+                <br><br>
+                Thank you for checking out my portfolio!
+            </p>
+            
+            <div class="iconcontainercontainer">
+            <div class="iconcontainer">
+                
+                <a target="_blank" href="/pdfux/LanaSmith-Resume.docx">
+                <img class="icon iconfront" src="img/iconcv.png" alt="Icon-CV">
+                </a>
+                
+                <a target="_blank" href="mailto:alana.kathrine.smith@gmail.com">
+                <img class="icon iconcenter" src="img/iconmail.png" alt="Icon-Mail">
+                </a>
+                
+                <a target="_blank" href="https://www.linkedin.com/in/lanaksmith/">
+                <img class="icon iconcenter" src="img/iconlinkedin.png" alt="Icon-Linkedin">
+                </a>
+                
+                <a target="_blank" href="https://twitter.com/LanaSKoi">
+                <img class="icon iconend" src="img/icontwitter.png" alt="Icon-Twitter">
+                </a>
+                
+            </div>
+            </div>
+            
+            </div>
+            
+            <!-- GRAPHIC DESIGN -->
+            <div class="titletitle graphictitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        graphic design
+                    </p>
+                </div>
+            </div>
+            
+            <img id="myBtn" class="photo graphicphoto01" src="img/graphicdesign/2018_05_04_Maythe4thc.png" alt="May the fourth be with you.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close01">&times;</span>
+                    <a target="_blank" href="img/graphicdesign/2018_05_04_Maythe4th.png"><img class="bigpic" src="img/graphicdesign/2018_05_04_Maythe4th.png" alt="May the 4th be with you."> </a>
+                    <p class="paragraphtext">The intended use of this graphic was to be posted on the Clerk of Privy Council's Twitter in the spirit of May the 4th. It was well received but unfortunately couldn't be used in time for the day. <br> <br> I was on the Clerk's Communication's team and was responsible for creating English and French graphics, motion graphics and making edits to pictures that would be uploaded to Twitter. You can find a lot of my work on his twitter here: <a class="hyperl" href="https://twitter.com/Clerk_GC" target="_blank">@Clerk_GC</a> and <a  class="hyperl" href="https://twitter.com/Greffier_GC" target="_blank">@Greffier_GC</a></p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn02" class="photo graphicphoto02" src="img/graphicdesign/Parliamentc.png" alt="Parliament.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal02" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close02">&times;</span>
+                    <a target="_blank" href="img/graphicdesign/Parliament.png"><img class="bigpic" src="img/graphicdesign/Parliament.png" alt="Bee."> </a>
+                    <p class="paragraphtext">This graphic of Parliment was created as a piece of a bigger motion graphic project for the Clerk of Privy Council's Annual Report. <br> <br> I was on the Clerk's Communication's team and was responsible for creating English and French graphics, motion graphics and making edits to pictures that would be uploaded to Twitter. You can find a lot of my work on his twitter here: <a class="hyperl" href="https://twitter.com/Clerk_GC" target="_blank">@Clerk_GC</a> and <a  class="hyperl" href="https://twitter.com/Greffier_GC" target="_blank">@Greffier_GC</a></p>
+                  </div>
+
+                </div>      
+            
+            
+           
+            
+            <img id="myBtn03" class="photo graphicphoto03" src="img/graphicdesign/WCK-Beec.png" alt="World Changing Kids - Bee.">      
+            
         
-        
-        <p class="h1hometext">Work harder, get smarter.</p>
-       
-        
-        </div>
-        
-        <!--
-        <div class="h2hometextwrapper">
-            <p class="h2hometext">If you’re looking for a Web Designer, Graphic Designer, Photographer or Videographer you’ve come to the right place.</p>
-        </div>
-        
-        <div class="alltheicons">
-        <a href="webdev.html"><img class="homeicons" src="img/home/webdev.png"></a>
-        <a href="graphic.html"><img class="homeicons" src="img/home/graphicdesign.png"></a>
-        <a href="photo.html"><img class="homeicons" src="img/home/photography.png"></a>
-        <a href="video.html"><img class="homeicons" src="img/home/videography.png"></a>
-        </div>
-        -->
-    
-    </main>
-    
-    
-    <footer>
-        
-        <div class="footertextwrapper">
+              <!-- The picture that opens -->
+                
+                <div id="myModal03" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close03">&times;</span>
+                    <a target="_blank" href="img/graphicdesign/WCK-Bee.png"><img class="bigpicpor" src="img/graphicdesign/WCK-Bee.png" alt="Bee."> </a>
+                    <p class="paragraphtext placetext">I created this bee character for an app that is being created for the Plant a Garden of Kindness Book from  <a class="hyperl" href="http://worldchangingkids.ca/" target="_blank">World Changing Kids.</a></p>
+                  </div>
+
+                </div>      
+            
+            <!-- PHOTOGRAPHY -->
+            <div class="titletitle phototitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        photography
+                    </p>
+                </div>
+            </div> 
+            
+            <img id="myBtn04" class="photo photophoto01" src="img/photography/IMG_0837c.jpg" alt="Cherry Blossom.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal04" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close04">&times;</span>
+                    <a target="_blank" href="img/photography/IMG_0837.jpg">
+                    <img class="bigpicpor" src="img/photography/IMG_0837.jpg" alt="Cherry Blossom."> 
+                    </a>
+                    <p class="paragraphtext placetext">
+                    This photoshoot was published in two different magazines. 
+                    <a class="hyperl" href="http://www.magcloud.com/browse/issue/1323981" target="_blank">Nothern Shine Magazine</a> and <a class="hyperl" href="http://www.magcloud.com/browse/issue/1249168" target="_blank">NYMPH Magazine</a>.
+                    </p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn05" class="photo photophoto02" src="img/photography/IMG_7714c.jpg" alt="Bird.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal05" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close05">&times;</span>
+                    <a target="_blank" href="img/photography/IMG_7714.jpg">
+                    <img class="bigpic" src="img/photography/IMG_7714.jpg" alt="Bird."> 
+                    </a>
+                    <p class="paragraphtext">
+                    A red-winged blackbird in a blossoming tree in spring.
+                    </p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn06" class="photo photophoto03" src="img/photography/IMG_4915c.jpg" alt="Winter.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal06" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close06">&times;</span>
+                    <a target="_blank" href="img/photography/IMG_4915.JPG">
+                    <img class="bigpic" src="img/photography/IMG_4915.jpg" alt="Winter."> 
+                    </a>
+                    <p class="paragraphtext">
+                    A beautiful pin-up girl in a winter wonderland. 
+                    
+                    </p>
+                  </div>
+
+                </div>
+            
+            
+            <!-- WEB DEVELOPMENT -->
+            <div class="titletitle webtitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        web development
+                    </p>
+                </div>
+            </div>  
+            
+            <img id="myBtn07" class="photo webphoto01" src="img/webdevelopment/contactcardc.png" alt="Contact Card.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal07" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close07">&times;</span>
+                    <a target="_blank" href="http://lanasdesign.com/WD-card.html">
+                    <img class="bigpic" src="img/webdevelopment/contactcard.png" alt="Contact Card."> 
+                    </a>
+                    <p class="paragraphtext">
+                    Click on the image to see the  
+                    <a class="hyperl" href="http://lanasdesign.com/WD-card.html" target="_blank">project</a>
+                    .<br><br>
+                    I created this for an assignment while I was a student. The purpose of the assignment was to demonstrate different hover and click states by using CSS animations as well as a little bit of javascript.
+                    </p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn08" class="photo webphoto02" src="img/webdevelopment/galleryc.png" alt="Gallery.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal08" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close08">&times;</span>
+                    <a target="_blank" href="http://lanasdesign.com/WD-gallery.html">
+                    <img class="bigpic" src="img/webdevelopment/gallery.png" alt="Gallery."> 
+                    </a>
+                    <p class="paragraphtext">
+                    Click on the image to see the  
+                    <a class="hyperl" href="http://lanasdesign.com/WD-gallery.html" target="_blank">project</a>
+                    .<br><br>
+                    I created this for an assignment while I was a student. The purpose of the assignment was to create a clickable gallery with javascript and to style it with CSS.
+                    </p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn09" class="photo webphoto03" src="img/webdevelopment/tvisbrokenc.png" alt="The TV is broken.">      
+            
+                  <!-- The picture that opens -->
+                
+                <div id="myModal09" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close09">&times;</span>
+                    <a target="_blank" href="http://lanasdesign.com/WD-brokentv.html">
+                    <img class="bigpic" src="img/webdevelopment/tvisbroken.png" alt="The TV is broken."> 
+                    </a>
+                    <p class="paragraphtext">
+                    Click on the image to see the  
+                    <a class="hyperl" href="http://lanasdesign.com/WD-brokentv.html" target="_blank">project</a>
+                    .<br><br>
+                    I created this for an assignment while I was a student. The purpose of the assignment was to demonstrate a creative way to showcase CSS animations.
+                    </p>
+                  </div>
+
+                </div>     
+            
+            <!-- VIDEOGRAPHY -->
+            <div class="titletitle videotitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        videography
+                    </p>
+                </div>
+            </div>   
+            
+            <img id="myBtn10" class="photo videophoto01" src="img/video/peacetowerc.png" alt="Peace Tower.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal10" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close10">&times;</span>
+                    
+                    <video class="bigpic" width="350" controls>
+                     
+                      <source src="video/peacetower.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    
+                    
+                    <p class="paragraphtext">
+                    I created this motion graphic for the Clerk of Privy Council's Annual Report Campain for twitter. The intention was to showcase one of the many stories in the Annual Report.
+                    <br> <br> 
+                    I was on the Clerk's Communication's team and was responsible for creating English and French graphics, motion graphics and making edits to pictures that would be uploaded to Twitter. You can find a lot of my work on his twitter here: 
+                    <a class="hyperl" href="https://twitter.com/Clerk_GC" target="_blank">@Clerk_GC</a>
+                     and 
+                    <a  class="hyperl" href="https://twitter.com/Greffier_GC" target="_blank">@Greffier_GC</a>
+                    </p>
+                  </div>
+
+                </div>
+            
+            <img id="myBtn11" class="photo videophoto02" src="img/video/manonthestreetc.jpg" alt="Beavertale.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal11" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close11">&times;</span>
+                    <video class="bigpic" width="350" controls>
+                      <source src="video/manonthestreet.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    <p class="paragraphtext">
+                    I created this interview video with a fellow classmate for an assignment while I was a student. The purpose was to splice interview answers together, face with the challenges of filming in public and to challenge our comfort zones with strangers on the street.
+                    </p>
+                  </div>
+
+                </div>
+                
+            <img id="myBtn12" class="photo videophoto03" src="img/video/facepaintc.jpg" alt="Facepaint.">        
+                
+                <!-- The picture that opens -->
+                
+                <div id="myModal12" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close12">&times;</span>
+                    <video class="bigpic" width="350" controls>
+                     
+                      <source src="video/facepaint.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                    <p class="paragraphtext">
+                    This video was created for an assignment while I was a student. The purpose was to show different camera angles to tell a story or to give more depth. 
+                    </p>
+                  </div>
+
+                </div>        
+                               
+            <!-- USER EXPERIENCE -->
+            <div class="titletitle uxtitle">
+                <div class="titletextcontainer">
+                    <p class="titletext">
+                        user experience
+                    </p>
+                </div>
+            </div> 
+            
+            <img id="myBtn13" class="photo uxphoto01" src="pdfux/06%20Cards%2030c.png" alt="PAGOK App.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal13" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close13">&times;</span>
+                    <a target="_blank" href="/pdfux/Final%20Handoff%20Booket.pdf">
+                    <img class="bigpic" src="pdfux/06%20Cards%2030.png" alt="PAGOK App."> 
+                    </a>
+                    <p class="paragraphtext">
+                    This is a screen from a project that I and 4 others created. The purpose of the project was to create the mobile version of the book "Plant a Garden of Kindness". Our group created everything from the design to how it works. <br>Click the  
+ 
+                    <a class="hyperl" href="/pdfux/Final%20Handoff%20Booket.pdf" target="_blank">image</a>
+                     to see the full PDF explaining the project in detail.
+                     <a class="hyperl" href="https://invis.io/FXMIUJVBAC3#/307468583_PGOK-APP-PAGES-03_01_Homepage" target="_blank">Click here to see the prototype in action.</a>
+                    </p>
+                  </div>
+
+                </div>
+                
+            <img id="myBtn14" class="photo uxphoto02" src="pdfux/Menu%20PageV5Menuc.jpg" alt="TK App.">
+            
+            <!-- The picture that opens -->
+                
+                <div id="myModal14" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close14">&times;</span>
+                    <a target="_blank" href="/pdfux/Project%20Exhibition%20Day%20Slide%20Deck.pdf">
+                    <img class="bigpicpor uhohtoobig" src="pdfux/Menu%20PageV5Menu.jpg" alt="TK App."> 
+                    </a>
+                    <p class="paragraphtext placetexttext">
+                    This is a screen from a project that I and 3 others created. The purpose of the project was to create a mobile menu template that all restaurants could use. For our project, we focused on craft. Our group created everything from the design to how it works. 
+                    
+                        <a class="hyperl" href="/pdfux/Project%20Exhibition%20Day%20Slide%20Deck.pdf" target="_blank">image</a>
+                     to see the full PDF explaining the project in detail.
+                     <a class="hyperl" href="https://preview.uxpin.com/c150e83136d8f51a1cd419037e7de6de1c2f8fe3#/pages//simulate/no-panels" target="_blank">Click here to see the prototype in action.</a>
+                    </p>
+                  </div>
+
+                </div>
+                
+            <img id="myBtn15" class="photo uxphoto03" src="pdfux/student%20talentsc.png" alt="IMDZ App."> 
+                                   
+            <!-- The picture that opens -->
+                
+                <div id="myModal15" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close close15">&times;</span>
+                    <a target="_blank" href="/pdfux/IMD%20Zone.pdf">
+                    <img class="bigpicpor uhohtoobig" src="pdfux/student%20talents.png" alt="IMDZ App."> 
+                    </a>
+                    <p class="paragraphtext placetexttext">
+                    This is a screen from a project that I created as an assignment. The purpose of the project was to create a portal for employers to find IMD students to hire. I created everything from the design to how it works. 
+                    
+                        <a class="hyperl" href="/pdfux/IMD%20Zone.pdf" target="_blank">image</a>
+                     to see the full PDF explaining the project in detail.
+                     <a class="hyperl" href="https://invis.io/4TNY2DC9WP7#/229830269_Lana_Portfolio_01" target="_blank">Click here to see the prototype in action.</a>
+                    </p>
+                  </div>
+
+                </div>                  
+                                    
+        </main>
+        <footer>
+            <div class="footertextwrapper">
             <p class="footertext">Copyright © 2017 Lana Smith. All rights reserved.</p>
         </div>
-        
-    </footer>
-    
-    
-</body>
+        </footer>
+        </div>
+    </body>
 </html>

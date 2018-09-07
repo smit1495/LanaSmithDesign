@@ -1,0 +1,1298 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/** NEW CSS **/
+
+/** BODY **/
+body{
+    background-color: #1e1e1e;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/** HEADER **/
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+    main{
+        padding-top: 110px;
+    }
+    /** NAME **/
+        .namelogo{
+            background-color: #1e1e1e;
+            text-align: center;
+            height: 120px;
+           
+        }
+
+        .bigscreen{
+            height: 60px;
+            padding: 10px;
+            
+            
+        }
+        .smallscreen{
+            display: none;
+            height: 73px;
+            padding: 5px;
+            margin: 0 auto;
+            
+        }
+
+        .getridofthisstyle{
+            text-decoration: none;
+        }
+
+    /** NAVIGATION **/
+        .topnav{
+            background-color: #1e1e1e;
+            height: 30px;
+            width: 960px;
+            margin: 0 auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 90px;
+            
+        }
+        .abig{
+            text-decoration: inherit;
+            color:  #FFFFFF;
+            display: block;
+            float: left;
+            padding: 7px 20px 7px 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .abig:hover{
+            background-color: #474747;
+
+        }
+
+        .activelink{
+            background-color: #474747;
+            font-weight: 500;
+        }
+
+        /** DROP DOWN MENU BEFORE MOBILE **/
+            .navicon{
+                display:none;
+            }
+
+            .dropdownnav{
+                display:none;
+            }
+
+            .dropdownnavclose{
+                display:none;
+            }
+
+            .dropdownnavopen{
+                display: none;
+
+            }
+    
+    /** MOBILE NAVIGATION **/
+        @media only screen and (max-width: 762px) {
+            
+                    
+            
+
+            
+        }
+            
+            /** ANIMATION FOR NAVIGATION MENU **/
+            @keyframes fadeout{
+                0%{
+                    transform: translate(0px, 0px);
+                    opacity: 1;
+                }
+                100%{
+                    transform: translate(-170px, 0px);
+                    opacity: 0;
+                }
+            }
+
+            @keyframes fadein{
+                0%{
+                    transform: translate(-170px, 0px);
+                    opacity: 0;
+                }
+                100%{
+                    transform: translate(0px, 0px);
+                    opacity: 1;
+                }
+            }
+/** MAIN **/
+
+    /** PROFILE PICTURE **/    
+        .profilepicture{
+            height: 600px;
+            position: absolute;
+            right: 0;
+            top: 50px;
+        }
+
+        .profilebox{
+            width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+
+    /** TEXT **/
+       
+    
+        .h1hometext{
+            font-family: 'Roboto', sans-serif;
+            font-size: 60px;
+            font-weight: 600;
+            color: #FFFFFF;
+            position: absolute;
+            top: 400px;
+            left: -100px;
+            
+        }
+       
+   
+
+ @media only screen and (max-width: 926px) {
+     
+     /** LOGO REPLACEMENT  & READY FOR MOBILE **/
+            .bigscreen{
+                display:none;
+                position: absolute;
+            }
+
+            .smallscreen{
+                display: block;
+            }
+
+            .abig{ 
+                display: none;
+                position: absolute;
+            }
+            
+            /** HAMBURGER ICON **/
+            .navicon{
+            display: inline;
+            height: 50px;
+            padding: 0 3px 0 3px;
+            position: absolute;
+            top: 63px;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            }
+
+            .navicon{
+                display: inline;
+
+
+            }
+            .navicon:hover{
+                background-color: #1e1e1e;
+                border-radius: 10px;
+
+            }
+            
+            /** TEXT DECORATION **/
+            
+            
+            .asmall{
+            text-decoration: inherit;
+            color:  #F0E9C3;
+            display: block;
+            padding: 7px 20px 7px 20px;
+            font-family: 'Roboto', sans-serif;
+            background-color:#474747;
+            color: #ffffff;
+            }
+            
+            .activelink{
+            background-color:#2f2f2f;
+            font-weight: 500;
+            }
+            
+            .asmall:hover{
+            background-color: #2f2f2f;
+
+            }
+            
+            .asmall:active{
+            background-color: #2f2f2f;
+
+            }
+            
+            /** ONCLICK FOR JS **/
+            .dropdownnavclose{
+            display: inline;
+            position: absolute;
+            top: 113px;
+            animation: fadeout 0.5s;
+            animation-fill-mode: forwards;
+            }
+
+            .dropdownnavopen{
+            display: inline;
+            position: absolute;
+            top: 113px;
+            animation: fadein 0.5s;
+            animation-fill-mode: forwards;
+            }
+
+     
+     /** TEXT **/
+     
+     .h1hometext{
+            font-size: 40px;
+            position: absolute;
+            top: 400px;
+            left: -40px;
+            
+        }
+     
+     .h2hometextwrapper{
+            width: 330px;
+        }
+
+        .h2hometext{
+            font-size: 20px;
+        }
+     /** ICONS **/
+     .alltheicons{
+            margin: 0 auto;
+            width: 384px;
+            padding: 50px 0 0 0;
+
+        }
+     .homeicons{
+         height: 150px;
+     }
+     
+}
+
+
+/** FOOTER **/
+    .footertextwrapper{
+        background-color: #1e1e1e;
+        height: 35px;
+        position: fixed;
+        bottom: 0;
+        width: 100%
+    }
+
+    .footertext{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 10px;
+        color: #FFFFFF;
+    }
+
+/** WEB DEV **/
+
+        
+    /** IMGS **/
+        .webimg{
+            margin: 0 auto;
+            border-style: solid;
+            border-color: #BCBCBC;
+            border-width: 2px;
+            box-shadow: 2px 2px 10px #BCBCBC;
+        }
+        .webimg:hover{
+            box-shadow: 5px 5px 10px #BCBCBC;
+            transform: scale(1.02);
+            transition: 1s;
+        }
+        .webimgcontainer{
+            margin: 0 auto;
+            width: 1030px;
+        }
+        .webdevproject{
+            float:left;
+            padding: 0 30px 30px 30px;
+        }
+
+    /** NAME **/
+        .webdevname{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            margin: 5px 0 0 0;
+            color: #FFFFFF;
+        }
+
+    /** INTRO **/
+        
+        .webdevtextwrapper{
+            margin: 0 auto;
+            width: 730px;
+            padding: 40px 0 40px 0;
+            
+        }
+
+        .pageintro{
+                font-family: 'Roboto', sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+    /** ARROW **/
+        .webdevarrow{
+            height: 30px;
+            margin: 0 0 30px 0;
+            padding: 0 0 30px 0;
+        }
+
+        .webdevarrow:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+
+        }
+        .uparrow{
+            width: 55px;
+            margin: 0 auto;
+        }
+    @media only screen and (max-width: 1052px) {
+        /** IMG **/
+            .webimgcontainer{
+                margin: 0 auto;
+                width: 515px;
+            }
+        /** INTRO **/
+            .webdevtextwrapper{
+                width: 546px;
+            }
+
+            .pageintro{
+                    font-size: 30px;
+                }
+    }
+
+/** GRAPHIC DESIGN **/
+/** ICONS **/
+        .graimgicon{
+            width: 300px;
+            
+            border-radius: 150px 150px 150px 150px;
+        }
+
+        .graimgicon:hover{
+                    transform: scale(1.02);
+                }
+        .graimgicon:active{
+                    transform: scale(1);
+                }
+    
+
+/** IMAGES **/
+
+.webdevimageswrapperill{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.webdevimageswrapperpho{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.phoshoppho{
+            width: 304px;
+            float: right;
+            position: absolute;
+            left: 0px;
+        }
+        
+        .graimg{
+            width: 300px;
+            
+        }
+
+        .graimg:hover{
+                    transform: scale(1.02);
+                }
+        .graimg:active{
+                    transform: scale(1);
+                }
+        .ill{
+            width: 304px;
+            position: absolute;   
+            left: 0px;
+        }
+
+        .phoshop{
+            width: 304px;
+            float: right;
+            position: absolute;
+            left: 400px;
+        }
+
+        .webdevimageswrapper{
+            margin: 0 auto;
+            width: 700px;
+            position: relative;
+        }
+
+        .graimgwrapper{
+            padding: 0 0 30px 0;
+        }
+
+    /** TEXT **/
+
+        .graphictextwrapper{
+            width: 737px;
+            margin: 0 auto;
+            padding:  40px 0 30px 0;
+            text-align: center;
+        }
+        .graintrotext{
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0 0 50px 0;
+            
+        }
+
+        .sizeme{
+            font-size: 40px
+        }
+
+    /** ARROW **/
+        .arrowforgra01{
+            margin: 500px 0 0 0;
+            padding: 0 0 70px 0;
+        }
+        .arrowforgra02{
+            margin: 7100px 0 0 0;
+            padding: 0 0 70px 0;
+        }
+        .arrowforgra03{
+            margin: 7100px 0 0 0;
+            padding: 0 0 70px 0;
+        }
+        
+
+}
+/** PHOTOGRAPHY **/
+    /** IMG **/
+   /** .imagegallery{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        align-items: center; 
+
+    } **/
+
+.photocontainer{
+    width: 1500px;
+    overflow: hidden;
+    background-color:#d91a81;
+    padding: 100px;
+}
+.imagegallery{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    align-items: center;
+}
+
+
+    /** AFTER CLICK **/
+    .overlay{
+        position: fixed;
+        background-color:rgba(0, 0, 0, 0.74);
+        z-index: 51;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        transition: .3s ease;
+    }
+    .img{
+        width: 100%;
+        flex-grow:1;
+        flex-shrink: 1;
+        margin: 7px 0;
+    }
+
+    .visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .image{
+        margin: 10px;
+        width: 310px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        padding: 10px 10px 50px 10px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        background-color: white;
+
+    }
+
+    .image:hover{
+        transform: scale(1.03);
+        transition: .2s ease;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.71);
+    }
+
+
+    .pic2{
+        position:absolute;
+        top: 100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        padding: 20px 20px 100px 20px;
+        background-color: white;
+        animation: growdatpic 0.5s ease;
+    }
+
+    /** TEXT **/
+    .phototextwrapper{
+        width: 237px;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+    }
+    .phototextwrappersubtext{
+        width: 437px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+    .subtext{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .ex{
+        width:  30px;
+        position: fixed;
+        top: 15%;
+        right: 5%;
+
+    }
+
+    @keyframes growdatpic {
+        0%{
+            transform: scale(.8);
+            opacity: 0;
+        }
+
+        50%{
+            opacity: 1;
+        }
+
+        100%{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @media screen and (max-width: 1075px){
+        .imagegallery{
+            width: 720px;
+        }
+        
+        .phototextwrapper{
+        width: 177px;
+        }
+        .phototextwrappersubtext{
+            width: 250px;
+        }
+            
+    }
+
+    @media screen and (max-width: 785px){
+        .imagegallery{
+            width: 350px;
+        }
+        .graphictextwrapper{
+        width: 340px;
+        }
+    }
+/** VIDEO **/
+    /** TEXTT **/
+    .videotextwrapper{
+        width: 512px;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+    }
+
+    /** VIDEO PLAYER **/
+    #video-player{
+        border-style: solid;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #000000;
+        border:solid;
+        border-color: #4b4b4b;
+
+    }
+    .video-player-container{
+        width: 600px;
+        position: relative;
+        margin: 0 auto;
+        top: 0px;
+    }
+
+    /** VIDEO LIST **/
+    .video-list-item{
+        width: 250px;
+        border-style: solid;
+        background-color: white;
+        border:solid;
+        border-color: #4b4b4b;
+    }
+
+    .video-play-list{
+        position: relative;
+        width: 554px;
+        margin: 0 auto;
+        top: 400px;
+    }
+
+    .video-list{
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .video-list-item_{
+        width: 257px;
+        height: 147px;
+        float: right;
+        top: 550px;
+        list-style: none;
+        left: 0;
+        right: 0;
+        margin: 10px 10px 10px 10px;
+        overflow: hidden;
+        list-style-type: none;
+        padding: 0
+    }
+
+    .video-list-item_:hover{
+        transition: 0.3s;
+        transform: scale(1.02);
+
+    }
+    /** CONTROLS **/
+
+    .video-controls{
+        position: absolute;
+        top: 310px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 185px;
+    }
+    .video-control{
+        height: 50px;
+        width: 70px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border:solid;
+        border-color: #4b4b4b;
+    }
+
+    .video-control:hover{
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.42);
+    }
+    /** PLAY BUTTON **/
+    #play-video{
+        overflow: hidden;
+        position: relative;
+    }
+
+    .playbutton{
+        width: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    /** MUTE BUTTON **/
+    #play-sound{
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .mutebutton{
+        width: 40px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        
+        
+    }
+
+.videoarrow{
+            height: 30px;
+            margin: 0 0 30px 0;
+            padding: 910px 0 30px 0;
+        }
+
+        .webdevarrow:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+
+        }
+
+
+
+
+/** UX DESIGN **/
+/**TEXT**/
+.uxtitlecontainer{
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+.uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+    width: 600px;
+}
+
+.uxdes{
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+/** PDF **/
+.pdfcontainer{
+    margin: 0 auto;
+    width: 800px;
+}
+.uxdesignfinalpdf{
+    width: 800px;
+    
+}
+/** ABOUT **/
+/** TEXT **/
+.abouttextwrapper{
+    width: 475px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.boiaboutsubtext{
+    width: 600px;
+    margin: 0 auto;
+    
+}
+ 
+.aboutsubtext{
+    text-align: center;
+    
+}
+/** IMAGE **/
+
+.selfie{
+    border-radius: 50%;
+    width: 300px;
+     
+}
+.putitinthemiddle{
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+}
+/** ARROW **/
+.aboutarrow{
+    padding: 30px 0 0 0;
+}
+@media screen and (max-width: 1075px){
+    .abouttextwrapper{
+        width: 356px;
+    }
+    .boiaboutsubtext{
+    width: 300px;
+    }
+}
+
+    @media only screen and (max-width: 1052px) {
+        .videotextwrapper{
+        }
+        
+        /** GRAPHIC DESIGN **/
+
+@media only screen and (max-width: 1052px) {
+    
+    .graphictextwrapper{
+        width:560px;    
+    }
+    
+    .pageintro{
+        width: 560px;
+    }
+    
+    .webdevimageswrapper{
+        width: 500px;
+        text-align: center;
+        }
+    .ill{
+            left: 0px;
+            width: 200px;
+        }
+    .phoshop{
+            left: 300px;
+            width: 200px;
+        }
+    .sizeme{
+            font-size: 25px
+        }
+    .graimgwrapper{
+            width: 200px;
+        }
+
+    .graimgicon{
+        width: 200px;
+    }
+    
+    /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 450px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:450px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 550px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 800px;
+    }
+    .uxdesignfinalpdf{
+        width: 800px;
+
+    }
+}
+@media only screen and (max-width: 762px) {
+    .graphictextwrapper{
+        width: 370px;
+        text-align: center;
+    }
+    .webdevimageswrapper{
+        width: 350px;
+    }
+    .ill{
+            left: 0px;
+            width: 150px;
+        }
+    .phoshop{
+            left: 200px;
+            width: 150px;
+        }
+    .sizeme{
+            font-size: 20px
+        }
+    .graimgicon{
+            width: 150px;
+        }
+    .pageintro{
+        font-size: 20px;
+        width: 370px;
+    }
+    
+    .phopho{
+        width: 120px;
+        font-size: 20px;
+    }
+    
+    .graimgwrapper{
+        width: 150px;
+    }
+    .phototextwrapper{
+        width: 120px;
+    }
+
+        /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 300px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:300px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 550px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .uxdesignfinalpdf{
+        width: 600px;
+
+    }
+    
+@media only screen and (max-width: 674px) {
+    
+ 
+    /** INDEX **/
+    .navicon{
+        top: 5px;
+    }
+    .dropdownnav{
+        top: 56px;
+    }
+    
+    .dropdownnavopen{
+        top: 56px;
+    }
+    
+    .namelogo{
+        width: 375px;
+        height: 145px;
+        margin: 0 auto;
+    }   
+                
+    .h1hometext{
+        font-size: 20px;
+        left: -20px;
+        top: 220px;
+    }
+    
+    .profilepicture{
+        height: 300px;
+        top: 37px;
+    }
+    
+    .profilebox{
+        width: 300px;
+    }
+    
+    .footertext{
+        width: 375px;
+    }
+    
+    /** PHOTOGRAPHY **/
+    .phototextwrapper{
+        width: 120px;
+        margin: 0 auto;
+    }
+    
+    /** AFTER CLICK **/
+    .ex{
+        top: 148px;
+        
+    }
+    
+    .overlay{
+        top: 50px;
+    }
+        
+    .pic2{
+        width: 300px;
+        top: 80px;
+        padding: 10px 10px 20px 10px;
+    }
+    
+    /** WEB DEV **/
+    .pageintro{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    
+    .webdevtextwrapper{
+        width: 366px;
+    }
+    
+    .webimgcontainer{
+            margin: 0 auto;
+            width: 360px;
+        }
+    
+    .webdevproject{
+        width: 300px;
+    }
+    
+    .webimg{
+        height: 300px;
+    }
+    
+    .webdevname{
+        width: 300px;
+    }
+    
+    /** GRAPHIC DESIGN **/
+
+    .graphictextwrapper{
+        width: 370px;
+        text-align: center;
+    }
+    .webdevimageswrapper{
+        width: 310px;
+    }
+    .ill{
+            left: 0px;
+            width: 150px;
+        }
+    .phoshop{
+            left: 160px;
+            width: 150px;
+        }
+    .sizeme{
+            font-size: 20px
+        }
+    .graimgicon{
+            width: 150px;
+        }
+    .pageintro{
+        font-size: 17px;
+        width: 320px;
+    }
+    
+    .graimgwrapper{
+        width: 150px;
+    }
+    
+    /** PHOTOGRAPHY **/
+    .phototextwrapper{
+        width: 100px;
+    }
+    
+/** VIDEO **/
+    /** TEXTT **/
+    .videotextwrapper{
+        width: 256px;
+    }
+
+    /** VIDEO PLAYER **/
+    #video-player{
+        width: 300px;
+        height: 170px;
+
+    }
+    .video-player-container{
+        width: 300px;
+    }
+
+    /** VIDEO LIST **/
+    .video-list-item{
+        width: 150px;
+    }
+
+    .video-play-list{
+        width: 340px;
+    }
+
+    .video-list{
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+        top: -110px;
+    }
+
+    .video-list-item_{
+        width: 150px;
+        height: 95px;
+    }
+
+   
+    /** CONTROLS **/
+
+    .video-controls{
+        top: 200px;
+    }
+            }
+
+
+
+/** VIDEO **/
+/** VIDEO **/
+    /** TEXTT **/
+    .videotextwrapper{
+        width: 256px;
+    }
+
+    /** VIDEO PLAYER **/
+    #video-player{
+        width: 300px;
+        height: 170px;
+
+    }
+    .video-player-container{
+        width: 300px;
+    }
+
+    /** VIDEO LIST **/
+    .video-list-item{
+        width: 150px;
+    }
+
+    .video-play-list{
+        width: 340px;
+    }
+
+    .video-list{
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+        top: -110px;
+    }
+
+    .video-list-item_{
+        width: 150px;
+        height: 95px;
+    }
+
+   
+    /** CONTROLS **/
+
+    .video-controls{
+        top: 200px;
+    }
+    
+
+   
+
+.videoarrow{
+            height: 30px;
+            margin: 0 0 30px 0;
+            padding: 910px 0 30px 0;
+        }
+
+        .webdevarrow:hover{
+            transform: scale(1.1);
+            transition: 0.1s;
+
+        }
+    
+            /** UX DESIGN **/
+    .uxtitlecontainer{
+        width: 250px;
+    }
+    .uxdesigntitle{
+    text-align: center;
+    margin-top: 40px;
+        width:250px;
+        margin: 40px 0 0 0;
+    }
+
+    .uxdes{
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+
+    /** PDF **/
+    .pdfcontainer{
+        margin: 0 auto;
+        width: 450px;
+    }
+    .uxdesignfinalpdf{
+        width: 450px;
+
+    }
