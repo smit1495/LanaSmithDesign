@@ -66,11 +66,11 @@ table {
 body{
     left: 50%;
     position: absolute;
-    margin-left: -187.5px;
+    margin-left: -210.5px;
     background-color: #f9f5f4;
 }
 .bodycontainer{
-    width: 375px;
+    width: 379px;
     position: absolute;
     background-color: white;
     height: 4060px;
@@ -673,6 +673,305 @@ header{
         left: 425px;
         top: 50px;
     }
+/* The Close Button */
+.close {
+    color: #000000;
+    float: right;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hyperl{
+  color: #f8b091;
+    text-decoration: none;
+}
+
+.hyperl:visited{
+    color: #f2746e;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+    
+}
+
+@media only screen and (max-width: 410px) {
+    
+body{
+    left: 50%;
+    position: absolute;
+    margin-left: -180.5px;
+    background-color: #f9f5f4;
+}
+.bodycontainer{
+    width: 330px;
+    position: absolute;
+    background-color: white;
+    height: 4060px;
+}
+
+
+/** HEADER **/
+
+header{
+    width: 330px;
+    z-index: 2;
+}
+
+
+
+/** FOOTER **/
+    .footertextwrapper{
+        height: 35px;
+        top: 4025px;
+        width: 330px;
+    }
+
+/** ME **/
+
+.metitle{
+    top:60px;
+}
+
+
+.lanasmithpic{
+    width: 220px;
+    right: 30px;
+}
+
+.circle{
+    height: 220px;
+    width: 220px;
+    right: 40px;
+}
+
+.metextcontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+    top: 340px;
+}
+
+.nametext{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 600;
+    color: #f3896c;
+}
+
+.quotetext{
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 600;
+    color: #f3896c;
+    text-align: center;
+    padding: 3px;
+}
+
+.paragraphtext{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+    font-family: roboto;
+    font-weight: 500;
+    color: #737574;
+    padding-top: 10px;
+}
+
+.icon{
+    width: 50px;
+    display: inline-block;
+    margin: 7.8px;
+}
+
+/** GRAPHIC DESIGN **/
+
+.graphictitle{
+    top: 727px;
+}
+
+.photo{
+    width: 260px;
+    height: 143px;
+    background-color:grey;
+    left: 50%;
+    margin-left: -130px;
+}
+
+.biggpic{
+    visibility: hidden;
+}
+
+.graphicphoto01{
+    top: 816px;
+    position: absolute;
+}
+
+.graphicphoto02{
+    top: 1009px;
+    position: absolute;
+}
+
+.graphicphoto03{
+    top: 1201.5px;
+    position: absolute;
+}
+
+/** PHOTOGRAPHY **/
+.phototitle{
+    top: 1394px;
+}
+
+.photophoto01{
+    top: 1483.5px;
+    position: absolute;
+}
+
+.photophoto02{
+    top: 1676px;
+    position: absolute;
+}
+
+.photophoto03{
+    top: 1868.5px;
+    position: absolute;
+}
+
+
+/** WEB DEVELPMENT **/
+
+.webtitle{
+    top: 2061px;
+}
+
+.webphoto01{
+    top: 2150.5px;
+    position: absolute;
+}
+
+.webphoto02{
+    top: 2343px;
+    position: absolute;
+}
+
+.webphoto03{
+    top: 2535.5px;
+    position: absolute;
+}
+
+/** VIDEOGRAPHY **/
+
+.videotitle{
+    top: 2728px;
+}
+
+.videophoto01{
+    top: 2817.5px;
+    position: absolute;
+}
+
+.videophoto02{
+    top: 3010px;
+    position: absolute;
+}
+
+.videophoto03{
+    top: 3202.5px;
+    position: absolute;
+}
+
+/** USER EXPERIENCE **/
+
+.uxtitle{
+    top: 3395px;
+}
+
+.uxphoto01{
+    top: 3474.5px;
+    position: absolute;
+}
+
+.uxphoto02{
+    top: 3657px;
+    position: absolute;
+}
+
+.uxphoto03{
+    top: 3839.5px;
+    position: absolute;
+}
+
+
+/*** MODAL IMAGE OVERLAY **/
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.67); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+}
+
+.bigpic{
+    max-width: 350px;
+    margin: 30px 0px;
+}
+
+
+
+.bigpicpor{
+    max-width: 250px;
+    margin: 30px 0px 0px 0px;
+    position: absolute;
+    left: 60px;
+}
+
+.uhohtoobig{
+    width: 150px;
+    left:115px;
+    top: -10px;
+}
+
+.placetext{
+    top: 415px;
+    position: absolute;
+    left: 30px;
+}
+
+.placetexttext{
+    top: 370px;
+    position: absolute;
+    left: 30px;
+}
+
+
+
 /* The Close Button */
 .close {
     color: #000000;
