@@ -460,13 +460,14 @@ header{
 }
 
 .nametext{
-    font-size: 50px;
+    font-size: 30px;
+    padding-left: 80px;
 }
 
 .quotetext{
-    font-size: 37px;
+    font-size: 20px;
     text-align: right;
-    padding: 7px;
+    padding-right: 70px;
 }
 
 .paragraphtext{
@@ -475,9 +476,16 @@ header{
     padding-top: 10px;
 }
 
+.iconcontainer{
+    width: 372px;
+    margin: auto;
+}    
+    
 .icon{
-    width: 90px;
-    margin: 15px;
+    width: 40px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /** GRAPHIC DESIGN **/
@@ -792,7 +800,7 @@ header{
 }
 
 .icon{
-    width: 50px;
+    width: 20px;
     display: inline-block;
     margin: 7.8px;
 }
