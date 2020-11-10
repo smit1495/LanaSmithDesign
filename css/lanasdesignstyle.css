@@ -203,23 +203,28 @@ body{
     font-weight: 500;
     z-index: 1;
 }
-.pictureofme{
-    position: absolute;
-    height: 400px;
-    top: 120px;
-    z-index: 1;
-    left: 12%;
-}
 
 .iconcontainer{
     width: 252px;
     margin: auto;
+    z-index: 1;
 }
     
 .icon{
     width: 40px;
     padding: 10px;
 }
+.pictureofme{
+    position: absolute;
+    height: 400px;
+    top: 120px;
+    z-index: 1;
+    left: 12%;
+    clip: rect(0px, 1000px, 540px, 0px);
+    
+}
+
+
 
 
 /******************************** IPHONE X SIZE ***/
@@ -246,4 +251,14 @@ body{
     width: 100%;
     padding-top: 100px;
     object-fit: cover;
+}
+
+.iconcontainer{
+    width: 572px;
+    margin: auto;
+}
+    
+.icon{
+    width: 40px;
+    padding: 10px 50px 10px 50px;
 }
