@@ -194,7 +194,7 @@ body{
     top: 300px;
     left: 10%;
     font-size: 70px;
-    color: red;
+    color: #FFFFFF;
     font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -246,7 +246,7 @@ body{
         font-size: 15px;
     }
 
-/******************************** IPHONE X SIZE ***/
+/******************************** BIG SIZE ***/
 /* Portrait */
 @media only screen and (min-width: 400px) {
     
@@ -263,7 +263,7 @@ body{
     font-size: 110px;
     top: 300px;
     left: 30%;
-    color: blue;
+    color: #FFFFFF;
 }
 
 .mainbackground{
