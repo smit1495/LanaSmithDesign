@@ -198,13 +198,13 @@ body{
     height: 400px;
     top: 120px;
     z-index: 1;
-    left: 30%;
+    left: 20%;
 }
 
 .hihellotext{
     position: absolute;
     top: 300px;
-    left: 20%;
+    left: 10%;
     font-size: 70px;
     color: red;
     font-family: montserrat, sans-serif;
