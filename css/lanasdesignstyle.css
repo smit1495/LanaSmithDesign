@@ -62,7 +62,7 @@ table {
 }
 
 
-/** NEW CSS **/
+/** NEW CSS 
 body{
     left: 50%;
     position: absolute;
@@ -74,949 +74,160 @@ body{
     position: absolute;
     background-color: white;
     height: 4060px;
+}**/
+
+ @import url("https://use.typekit.net/qky4biu.css");
+/****************************************************************MEDUIM***************/
+
+/*** NAV BUTTON ***/
+body{
+    
+}
+.navbarstatic{
+    z-index: 2;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #f3746e;
+    top: 0;
+    background-color: #FFF;
+    overflow: hidden;
 }
 
-/****************************************************************MEDUIM***************/
-/** HEADER **/
+.sitenamediv{
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
 
-header{
-    position: fixed;
-    top: 0;
-    width: 375px;
+    
+}
+.sitename{
+    font-family: montserrat, sans-serif;
+    color: #f3746e;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    font-size: 15px;
+}
+
+.logoicon{
+    height: 39px;
+    display: inline-block;
+    padding: 5px;
+    float: left;
+}
+.biggernavcontainer{
+    display: inline-block;
+    float: right;
+    padding: 5px;
+}
+.mnavcontainer {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #f3746e;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 52px;
+  left: 0;
+  background-color: #FFF;
+  overflow-x: hidden;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f3746e;
+  display: block;
+   font-family: montserrat, sans-serif;
+    font-size: 15px;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+/****************** MAIN PAGE ******************/
+
+.mainbackground{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    object-fit: cover;
+}
+
+.pictureofme{
+    position: absolute;
+    height: 400px;
+    top: 120px;
+    z-index: 1;
+    left: 30%;
+}
+
+.hihellotext{
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    font-size: 70px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
     z-index: 2;
 }
 
-.header{
-    background-color: #f3896c;
-    height: 40px;
-}
 
-.headertextcontainer{
-    text-align: center;
-    padding: 8px;
-}
-
-.headertext{
-    color: white;
-    font-family: roboto;
-    font-weight: 450;
-    font-size: 25px;
-    letter-spacing: 4px;
-}
-
-/** FOOTER **/
-    .footertextwrapper{
-        background-color: #f3896c;
-        height: 35px;
-        top: 4025px;
-        width: 375px;
-        position: absolute;
-    }
-
-    .footertext{
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        padding: 11px;
-        color: #FFFFFF;
-        font-size: 13px;
-        font-weight: 100;
-    }
-
-/** ME **/
-
-.metitle{
-    top:60px;
-}
-
-.titletitle{
-    position: absolute;
-    background-color: #f8b091;
-    height: 40px;
-    width: 270px;
-}
-
-.titletext{
-    color: white;
-    font-family: roboto;
-    font-weight: 300;
-    font-size: 25px;
-}
-
-.titletextcontainer{
-    padding: 8px;
-    right: 0px;
-    position: absolute;
-    text-align: right;
-}
-
-.lanasmithpic{
-    width: 240px;
-    top: 115px;
-    position: absolute;
-    z-index: 1;
-    right: 20px;
-}
-
-.circle{
-    height: 240px;
-    width: 240px;
-    background-color: #fbbc73;
-    border-radius: 50%;
-    position: absolute;
-    top: 115px;
-    right: 30px;
-}
-
-.metextcontainer{
-    position: relative;
-    margin: 0 auto;
-    width: 335px;
-    top: 340px;
-}
-
-.nametext{
-    font-size: 30px;
-    font-family: roboto;
-    font-weight: 600;
-    color: #f3896c;
-}
-
-.quotetext{
-    font-size: 20px;
-    font-family: roboto;
-    font-weight: 600;
-    color: #f3896c;
-    text-align: center;
-    padding: 3px;
-}
-
-.paragraphtext{
-    font-size: 12px;
-    width: 310px;
-    margin: 0 auto;
-    font-family: roboto;
-    font-weight: 500;
-    color: #737574;
-    padding-top: 10px;
-}
-
-.iconcontainer{
-    width: 200px;
-    margin: auto;
-}
-.icon{
-    width: 30px;
-    display: inline-block;
-    margin: 7.8px;
-}
-
-/** GRAPHIC DESIGN **/
-
-.graphictitle{
-    top: 727px;
-}
-
-.photo{
-    width: 310px;
-    height: 170px;
-    background-color:grey;
-    left: 50%;
-    margin-left: -155px;
-}
-
-.biggpic{
-    visibility: hidden;
-}
-
-.graphicphoto01{
-    top: 787px;
-    position: absolute;
-}
-
-.graphicphoto02{
-    top: 977px;
-    position: absolute;
-}
-
-.graphicphoto03{
-    top: 1167px;
-    position: absolute;
-}
-
-/** PHOTOGRAPHY **/
-.phototitle{
-    top: 1394px;
-}
-
-.photophoto01{
-    top: 1454px;
-    position: absolute;
-}
-
-.photophoto02{
-    top: 1644px;
-    position: absolute;
-}
-
-.photophoto03{
-    top: 1834px;
-    position: absolute;
-}
-
-
-/** WEB DEVELPMENT **/
-
-.webtitle{
-    top: 2061px;
-}
-
-.webphoto01{
-    top: 2121px;
-    position: absolute;
-}
-
-.webphoto02{
-    top: 2311px;
-    position: absolute;
-}
-
-.webphoto03{
-    top: 2501px;
-    position: absolute;
-}
-
-/** VIDEOGRAPHY **/
-
-.videotitle{
-    top: 2728px;
-}
-
-.videophoto01{
-    top: 2788px;
-    position: absolute;
-}
-
-.videophoto02{
-    top: 2978px;
-    position: absolute;
-}
-
-.videophoto03{
-    top: 3168px;
-    position: absolute;
-}
-
-/** USER EXPERIENCE **/
-
-.uxtitle{
-    top: 3395px;
-}
-
-.uxphoto01{
-    top: 3455px;
-    position: absolute;
-}
-
-.uxphoto02{
-    top: 3645px;
-    position: absolute;
-}
-
-.uxphoto03{
-    top: 3835px;
-    position: absolute;
-}
-
-
-/*** MODAL IMAGE OVERLAY **/
-
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.67); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: 0 auto;
-    padding: 10px;
-    width: 350px;
-    height: 450px;
-    position: absolute;
-    left: 50%;
-    margin-left: -166px;
-}
-
-.bigpic{
-    max-width: 350px;
-    margin: 30px 0px;
-}
-
-
-
-.bigpicpor{
-    max-width: 250px;
-    margin: 30px 0px 0px 0px;
-    position: absolute;
-    left: 60px;
-}
-
-.uhohtoobig{
-    width: 150px;
-    left:115px;
-    top: -10px;
-}
-
-.placetext{
-    top: 415px;
-    position: absolute;
-    left: 30px;
-}
-
-.placetexttext{
-    top: 370px;
-    position: absolute;
-    left: 30px;
-}
-
-
-
-/* The Close Button */
-.close {
-    color: #000000;
-    float: right;
-    font-size: 30px;
-    font-weight: 1000;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.hyperl{
-  color: #f8b091;
-    text-decoration: none;
-}
-
-.hyperl:visited{
-    color: #f2746e;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-/****************************************************************BIGGEST***************/
+/******************************** IPHONE X SIZE ***/
+/* Portrait */
 @media only screen and (min-width: 1114px) {
     
-    body{
+
+
+.pictureofme{
+    height: 600px;
     left: 50%;
-    margin-left: -460.5px;
-    }
-    
-    .bodycontainer{
-        width: 1000px;
-    }
-    
-    
-    /** HEADER **/
-
-header{
-    width: 1000px;
-}
-
-/** FOOTER **/
-    .footertextwrapper{
-        top: 4025px;
-        width: 1000px;
-    }
-
-
-/** ME **/
-.lanasmithpic{
-    width: 450px;
-    right: 20px;
-}
-
-.circle{
-    height: 450px;
-    width: 450px;
-    right: 40px;
-}
-
-.metextcontainer{
-    left: -200px;
-    width: 500px;
-    top: 150px;
-}
-
-.nametext{
-    font-size: 30px;
-    padding-left: 80px;
-}
-
-.quotetext{
-    font-size: 20px;
-    text-align: right;
-    padding-right: 70px;
-}
-
-.paragraphtext{
-    font-size: 16px;
-    width: 410px;
-    padding-top: 10px;
-}
-
-.iconcontainer{
-    width: 372px;
-    margin: auto;
-}    
-    
-.icon{
-    width: 40px;
-    margin: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/** GRAPHIC DESIGN **/
-
-
-.photo{
-    width: 310px;
-    height: 310px;
-    background-color:grey;
-    left: 50%;
-    margin-left: -155px;
-    border
-}
-
-    .biggpic{
-        visibility: visible;
-    }
-    
-    .smallpic{
-        visibility: hidden;
-    }
-    
-.graphicphoto01{
-    top: 925.5px;
-    left: 170px;
-}
-
-.graphicphoto02{
-    top: 925.5px;
-    left: 500px;
-}
-
-.graphicphoto03{
-    top: 925.5px;
-    left: 830px;
-}
-
-/** PHOTOGRAPHY **/
-
-.photophoto01{
-    top: 1592.5px;
-    left: 170px;
-}
-
-.photophoto02{
-    top: 1592.5px;
-    left: 500px;
-}
-
-.photophoto03{
-    top: 1592.5px;
-    left: 830px;
-}
-
-
-/** WEB DEVELPMENT **/
-
-.webphoto01{
-    top: 2259.5px;
-    left: 170px;
-}
-
-.webphoto02{
-    top: 2259.5px;
-    left: 500px;
-}
-
-.webphoto03{
-    top: 2259.5px;
-    left: 830px;
-}
-
-/** VIDEOGRAPHY **/
-
-.videophoto01{
-    top: 2936.5px;
-    left: 170px;
-}
-
-.videophoto02{
-    top: 2936.5px;
-    left: 500px;
-}
-
-.videophoto03{
-    top: 2936.5px;
-    left: 830px;
-}
-
-/** USER EXPERIENCE **/
-
-.uxphoto01{
-    top: 3573.5px;
-    left: 170px;
-}
-
-.uxphoto02{
-    top: 3573.5px;
-    left: 500px;
-}
-
-.uxphoto03{
-    top: 3573.5px;
-    left: 830px;
-}
-
-
-/*** MODAL IMAGE OVERLAY **/
-
-
-/* The Modal (background) */
-
-
-/* Modal Content */
-.modal-content {
-    width: 850px;
-    height: 650px;
-    position: absolute;
-    left: 50%;
-    margin-left: -390px;
-}
-
-.bigpic{
-    max-width: 850px;
-    margin: 10px 0px;
-}
-
-
-
-.bigpicpor{
-    max-width: 440px;
-    margin: -5px 0px 0px 0px;
-    position: absolute;
-    left: 10px;
-}
-
-.uhohtoobig{
-    width: 280px;
-    left: 60px;
-    top: 12px;
-}
-
-.placetext{
-    top: 50px;
-    position: absolute;
-    left: 460px;
-}
-
-.placetexttext{
-    top: 370px;
-    position: absolute;
-    left: 30px;
-}
-    
-    .biggertext{
-        width: 850px;
-    }
-
-    .webdevpics{
-        width: 774px;
-        margin: 30px 0px 0px 30px;
-    }
-    .webdevtexttext{
-        width: 774px;
-        top: 580px;
-        left: 45px;
-        position: absolute;
-    }
-    
-    .videoresize{
-        width: 800px;
-        position: absolute;
-        left: 35px;
-        top: 25px;
-    }
-    
-     .videotexttext{
-        width: 774px;
-        top: 525px;
-        left: 50px;
-        position: absolute;
-    }
-    
-    .uxuxland{
-        width: 750px;
-        left: 58px;
-        position: absolute;
-    }
-    
-    .uxtexttext{
-        top: 575px;
-        position: absolute;
-        width: 750px;
-        left: 58px;
-    }
-
-    .uxuxpor{
-        left: 425px;
-        top: 50px;
-    }
-/* The Close Button */
-.close {
-    color: #000000;
-    float: right;
-    font-size: 30px;
-    font-weight: 1000;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.hyperl{
-  color: #f8b091;
-    text-decoration: none;
-}
-
-.hyperl:visited{
-    color: #f2746e;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-    
-}
-/****************************************************************SMALLEST***************/
-@media only screen and (max-width: 410px) {
-    
-body{
-    left: 50%;
-    position: absolute;
-    margin-left: -150.5px;
-    background-color: #f9f5f4;
-}
-.bodycontainer{
-    width: 330px;
-    position: absolute;
-    background-color: white;
-    height: 4060px;
-}
-
-
-/** HEADER **/
-
-header{
-    width: 330px;
-    z-index: 2;
-}
-
-
-
-/** FOOTER **/
-    .footertextwrapper{
-        height: 35px;
-        top: 4025px;
-        width: 330px;
-    }
-
-/** ME **/
-
-.metitle{
-    top:60px;
-}
-
-
-.lanasmithpic{
-    width: 220px;
-    right: 30px;
-}
-
-.circle{
-    height: 220px;
-    width: 220px;
-    right: 40px;
-}
-
-.metextcontainer{
-    position: relative;
-    margin: 0 auto;
-    width: 280px;
-    top: 340px;
-}
-
-.nametext{
-    font-size: 30px;
-    font-family: roboto;
-    font-weight: 600;
-    color: #f3896c;
-}
-
-.quotetext{
-    font-size: 20px;
-    font-family: roboto;
-    font-weight: 600;
-    color: #f3896c;
-    text-align: center;
-    padding: 3px;
-}
-
-.paragraphtext{
-    font-size: 12px;
-    width: 250px;
-    margin: 0 auto;
-    font-family: roboto;
-    font-weight: 500;
-    color: #737574;
-    padding-top: 10px;
-}
-
-.icon{
-    width: 30px;
-    display: inline-block;
-    margin: 7.8px;
-}
-
-/** GRAPHIC DESIGN **/
-
-.graphictitle{
-    top: 727px;
-}
-
-.photo{
-    width: 260px;
-    height: 143px;
-    background-color:grey;
-    left: 50%;
-    margin-left: -130px;
-}
-
-.biggpic{
-    visibility: hidden;
-}
-
-.graphicphoto01{
-    top: 816px;
-    position: absolute;
-}
-
-.graphicphoto02{
-    top: 1009px;
-    position: absolute;
-}
-
-.graphicphoto03{
-    top: 1201.5px;
-    position: absolute;
-}
-
-/** PHOTOGRAPHY **/
-.phototitle{
-    top: 1394px;
-}
-
-.photophoto01{
-    top: 1483.5px;
-    position: absolute;
-}
-
-.photophoto02{
-    top: 1676px;
-    position: absolute;
-}
-
-.photophoto03{
-    top: 1868.5px;
-    position: absolute;
-}
-
-
-/** WEB DEVELPMENT **/
-
-.webtitle{
-    top: 2061px;
-}
-
-.webphoto01{
-    top: 2150.5px;
-    position: absolute;
-}
-
-.webphoto02{
-    top: 2343px;
-    position: absolute;
-}
-
-.webphoto03{
-    top: 2535.5px;
-    position: absolute;
-}
-
-/** VIDEOGRAPHY **/
-
-.videotitle{
-    top: 2728px;
-}
-
-.videophoto01{
-    top: 2817.5px;
-    position: absolute;
-}
-
-.videophoto02{
-    top: 3010px;
-    position: absolute;
-}
-
-.videophoto03{
-    top: 3202.5px;
-    position: absolute;
-}
-
-/** USER EXPERIENCE **/
-
-.uxtitle{
-    top: 3395px;
-}
-
-.uxphoto01{
-    top: 3474.5px;
-    position: absolute;
-}
-
-.uxphoto02{
-    top: 3657px;
-    position: absolute;
-}
-
-.uxphoto03{
-    top: 3839.5px;
-    position: absolute;
-}
-
-
-/*** MODAL IMAGE OVERLAY **/
-
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.67); /* Black w/ opacity */
+    top: 60px;
 }
 
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: 0 auto;
-    padding: 10px;
-    width: 260px;
-    height: 480px;
-    position: absolute;
-    left: 50%;
-    margin-left: -125px;
-}
-
-.bigpic{
-    max-width: 260px;
-    margin: 10px 0px;
-}
-
-
-
-.bigpicpor{
-    max-width: 250px;
-    margin: 30px 0px 0px 0px;
-    position: absolute;
-    left: 15px;
-}
-
-.uhohtoobig{
-    width: 150px;
-    left: 70px;
-    top: -10px;
-}
-
-.placetext{
-    top: 415px;
-    position: absolute;
-    left: 30px;
-}
-
-.placetexttext{
-    top: 370px;
-    position: absolute;
-    left: 15px;
-}
-
-
-
-/* The Close Button */
-.close {
-    color: #000000;
-    float: right;
-    font-size: 30px;
-    font-weight: 1000;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.hyperl{
-  color: #f8b091;
-    text-decoration: none;
-}
-
-.hyperl:visited{
-    color: #f2746e;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-}
-    
+.hihellotext{
+    font-size: 110px;
+    top: 300px;
+    left: 30%;
 }
