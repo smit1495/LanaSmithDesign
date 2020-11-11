@@ -246,6 +246,26 @@ body{
         font-size: 15px;
     }
 
+/** FOOTER **/
+    .footertextcontainer{
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #FFFFFF;
+      text-align: center;
+        border-top: 2px solid #f3746e;
+    }
+
+    .footertext{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 11px;
+        color: #f3746e;
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+
 /******************************** BIG SIZE ***/
 /* Portrait */
 @media only screen and (min-width: 400px) {
