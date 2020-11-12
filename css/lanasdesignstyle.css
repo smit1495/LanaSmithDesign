@@ -77,12 +77,30 @@ body{
 }**/
 
  @import url("https://use.typekit.net/qky4biu.css");
+
+a{
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration : none;
+}
+a:link {
+  text-decoration : none;
+}
+
+a:visited {
+  text-decoration : none;
+}
+a:active {
+  text-decoration : none;
+}
 /****************************************************************MEDUIM***************/
 
 /*** NAV BUTTON ***/
 body{
     
 }
+
 .navbarstatic{
     z-index: 2;
     position: fixed;
@@ -160,7 +178,7 @@ body{
   text-align:center;
 }
 
-.sidenav a {
+.sidenav .sidenava {
   padding: 15px 8px 15px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -179,7 +197,9 @@ body{
   margin-left: 50px;
 }
 
-
+.longnav{
+    display: none;
+}
 
 /****************** MAIN PAGE ******************/
 
@@ -270,7 +290,34 @@ body{
 /* Portrait */
 @media only screen and (min-width: 400px) {
     
-
+/*********** NAV *************/
+.longnav{
+    display: block;
+    padding: 15px 0px 15px 0px;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 790px;
+}
+    .longnava{
+        color: #f3746e;
+        font-size: 16px;
+        padding: 0px 30px 0px 30px;
+    }
+    
+    .mnavcontainer{
+        display: none;    
+    }
+    
+    .sitenamediv{
+        display: none;
+    }
+    
+    
+/***** MAIN PAGE ****/
 
 .pictureofme{
     height: 600px;
