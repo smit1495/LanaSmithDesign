@@ -31,6 +31,26 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  //dots[slideIndex-1].className += " active";
+ // captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+// uses keyboard arrows to navigate
+document.addEventListener("keydown",checkKey);
+
+function checkKey(e) {
+
+    e = e || window.event;
+
+    
+    if (e.keyCode == '37') {
+       plusSlides(-1);
+    }
+    else if (e.keyCode == '39') {
+        plusSlides(1);
+    }
+
+}
+
+
