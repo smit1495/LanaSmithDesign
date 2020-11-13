@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lana smith design</title>
+        <link rel="stylesheet" type="text/css" href="css/lanasdesignstyle.css">
+        <link href="font/Roboto-Regular.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/qky4biu.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="js/graphicdesign.js" defer></script>
+        <meta name="viewport" content="width=320, initial-scale=1.0">
+        <link rel="icon" href="img/lanalogocolor.ico">
+    </head>
+    <body>
+    <header>
+    <!-- NAV BAR -->
+    <div class="navbarstatic">
+       
+        <a href="index.html"><img class="logoicon" src="img/android-chrome-512x512.png"></a>
+        <div class="sitenamediv">
+            <a href="index.html"><p class="sitename">lana smith design</p></a>
+        </div>
+        
+        <div class="biggernavcontainer">
+        <div class="mnavcontainer" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        </div>
+       <!-- side nav -->
+       <div id="mySidenav" class="sidenav">
+          <a class="sidenava" href="graphicdesign.html">graphic design</a>
+          <a class="sidenava" href="#">animation & video</a>
+          <a class="sidenava" href="#">photography</a>
+          <a class="sidenava" href="#">ux design</a>
+          <a class="sidenava" href="#">web design</a>
+        </div>
+        <!-- long nav -->
+        <div class="longnav">
+          <a class="longnava" href="graphicdesign.html">graphic design</a>
+          <a class="longnava"href="#">animation & video</a>
+          <a class="longnava"href="#">photography</a>
+          <a class="longnava"href="#">ux design</a>
+          <a class="longnava"href="#">web design</a>
+        </div>
+        
+        
+    </div>
+    </header>
+       
+    <!-----------------------------------BODY -->   
+      
+      <div class="space"></div>
+      
+       <h2 class="pagetitle">graphic design</h2>
+
+<div class="row">
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCGBrandingCover-Lana-sq.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="columnimg">
+    <img src="img/graphicdesign/MinisterialBriefingBook-sq.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="columnimg">
+    <img src="img/graphicdesign/LarusFront-sq.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCG-Podium-Banner-sq.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCG-Podium-Banner-sq.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCG-Podium-Banner-sq.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCG-Podium-Banner-sq.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  
+  <div class="columnimg">
+    <img src="img/graphicdesign/CCG-Podium-Banner-sq.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+  
+</div>
+<!-- these are bigger photos -->
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides bigimage">
+      <div class="numbertext"><!-- you can number the photos here --></div>
+      <a href="img/graphicdesign/CCGBrandingCover-Lana.jpg">
+      <img class="verticalimage" src="img/graphicdesign/CCGBrandingCover-Lana.jpg" >
+      </a>
+    </div>
+
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      <a href="img/graphicdesign/MinisterialBriefingBook.jpg">
+      <img class="verticalimage" src="img/graphicdesign/MinisterialBriefingBook.jpg">
+        </a>
+    </div>
+
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      <a href="img/graphicdesign/LarusFront.png">
+      <img class="verticalimage" src="img/graphicdesign/LarusFront.png">
+        </a>
+    </div>
+    
+    <div class="mySlides bigimage">
+    <div class="numbertext"></div>
+     <a href="img/graphicdesign/CCG-Podium-Banner.jpg">
+      <img class="verticalimage" src="img/graphicdesign/CCG-Podium-Banner.jpg">
+        </a>
+    </div>
+    
+    <div class="mySlides bigimage">
+    <div class="numbertext"></div>
+     <a href="img/graphicdesign/CCG-Podium-Banner.jpg">
+      <img class="verticalimage" src="img/graphicdesign/CCG-Podium-Banner.jpg">
+        </a>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+ 
+    <div class="columnimg">
+      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">        
+    </div>
+    -->
+  </div>
+</div>
+       
+       
+       
+        <footer>
+            <div class="footertextcontainer">
+            <p class="footertext">Copyright © 2020 Lana Smith. All rights reserved.</p>
+        </div>
+        </footer>
+    </body>
+</html>
