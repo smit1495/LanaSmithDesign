@@ -94,7 +94,7 @@ a:visited {
 a:active {
   text-decoration : none;
 }
-/****************************************************************MEDUIM***************/
+/****************************************************************Mobile***************/
 
 /*** NAV BUTTON ***/
 body{
@@ -342,7 +342,8 @@ body{
     text-align: center;
 }
 .verticalimage{
-    height: 400px;
+   /** height: 400px; **/
+    width: 330px;
 }
 
 
