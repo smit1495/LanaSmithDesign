@@ -294,10 +294,10 @@ body{
 .pagetitle{
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     color: #f3746e;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 100;
 }
 
@@ -320,13 +320,13 @@ body{
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
   left: 0;
   top: 52px;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.66);
+  background-color: rgba(0, 0, 0, 0.86);
 }
 
 /* Modal Content */
@@ -346,7 +346,16 @@ body{
     width: 330px;
 }
 
+.photo-caption{
+        padding: 20px;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
 
+    .space2{
+        margin-top: 150px;
+    }
 
 /* The Close Button */
 .close {
@@ -378,7 +387,7 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 250px;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -438,9 +447,270 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+    /******************************************************************************MEDIUM **/
+    
+
+
+@media only screen and (min-width: 738px) {
+    
+    /*********** NAV *************/
+.longnav{
+    display: block;
+    padding: 15px 0px 15px 0px;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:590px;
+}
+    .longnava{
+        color: #f3746e;
+        font-size: 16px;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .mnavcontainer{
+        display: none;    
+    }
+    
+    .sitenamediv{
+        display: none;
+    }
+    
+    
+/***** MAIN PAGE ****/
+
+.pictureofme{
+    height: 600px;
+    left: 50%;
+    top: 60px;
+    clip: rect(0px, 1000px, 540px, 0px);
+}
+
+.hihellotext{
+    font-size: 110px;
+    top: 300px;
+    left: 30%;
+    color: #FFFFFF;
+}
+
+.mainbackground{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    object-fit: cover;
+}
+
+.iconcontainer{
+    width: 572px;
+    margin: auto;
+}
+    
+.icon{
+    width: 40px;
+    padding: 10px 50px 10px 50px;
+}
+    
+.collumcontainer{
+    width: 800px;  
+    height: 230px;
+    margin: auto;
+    overflow: hidden;
+}
+
+    .collum1{
+        width: 400px;
+        float: left;
+    }
+    
+    .collum2{
+        width: 800px;
+    }
+    
+.vectorlana{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+    .biotextcontainer{
+        overflow: hidden;
+        padding-top: 60px;
+    }
+    .biotext{
+        margin: auto;
+        font-family: roboto, sans-serif;
+        color: #737575;
+        font-size: 24px;
+    }
+    /******************************************************** Graphic Design medium**/
+
+.space{
+    margin: 60px;
+}
+
+.pagetitle{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #f3746e;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.row{
+    text-align: center;
+    margin: auto;
+    width: 750px;
+    height: 1530px;
+}
+
+.columnimg {
+  /**float: left;**/
+  width: 333px;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 52px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.86);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.bigimage{
+    text-align: center;
+}
+.verticalimage{
+    width: 590px;
+}
+
+.photo-caption{
+        padding: 20px;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .space2{
+        margin-top: 150px;
+    }
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 400px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
+}
+    
 /************************************************************************************************ BIG SIZE ***/
 /* Portrait */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 1132px) {
     
 /*********** NAV *************/
 .longnav{
@@ -542,7 +812,7 @@ img.hover-shadow {
 .pagetitle{
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: #f3746e;
     font-size: 30px;
@@ -552,7 +822,7 @@ img.hover-shadow {
 .row{
     text-align: center;
     margin: auto;
-    width: 1300px;
+    width: 1127px;
     height: 1130px;
 }
 
@@ -568,13 +838,13 @@ img.hover-shadow {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
   left: 0;
   top: 52px;
   width: 100%;
-  height: 100%;
+  /**height: 100%;**/
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.66);
+  background-color: rgba(0, 0, 0, 0.86);
 }
 
 /* Modal Content */
@@ -590,11 +860,19 @@ img.hover-shadow {
     text-align: center;
 }
 .verticalimage{
-    height: 760px;
+    width: 590px;
 }
 
+    .photo-caption{
+        padding: 20px;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
 
-
+    .space2{
+        margin-top: 150px;
+    }
 /* The Close Button */
 .close {
   color: white;
@@ -625,7 +903,7 @@ img.hover-shadow {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 400px;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -683,4 +961,6 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
 }
