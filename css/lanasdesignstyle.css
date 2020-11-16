@@ -305,7 +305,7 @@ body{
     text-align: center;
     margin: auto;
     width: 290px;
-    height: 600px;
+    height: 640px;
 }
 
 .columnimg {
@@ -313,6 +313,7 @@ body{
   width: 133px;
     padding: 5px;
     display: inline-block;
+    position: relative;
 }
 
 /* The Modal (background) */
@@ -337,6 +338,19 @@ body{
   width: 90%;
   max-width: 1200px;
 }
+
+/********************** image discriptions *******/
+
+
+.hovertitles{
+    color: #f3746e;
+    font-size: 10px;
+    font-family: roboto;
+}
+
+
+/**** END image discriptions **************************/
+
 
 .bigimage{
     text-align: center;
@@ -439,13 +453,8 @@ body{
   opacity: 1;
 }
 
-img.hover-shadow {
-  transition: 0.3s;
-}
 
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 
     /******************************************************************************MEDIUM **/
@@ -575,6 +584,63 @@ img.hover-shadow {
     display: inline-block;
 }
 
+    /********************** HOVER *******/
+.text1container {
+  background: rgba(0, 0, 0, 0.70);
+  color: #fff;
+  position: absolute;
+ 
+    top: 187px;
+    left: 187px;
+    height: 333px;
+    width: 333px;
+    
+    visibility: hidden;
+  opacity: 0;
+    
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  
+  transition: opacity .2s, visibility .2s;
+    
+    cursor: pointer;
+}
+
+.columnimg:hover .text1container {
+  visibility: visible;
+  opacity: 1;
+    
+}  
+
+.columimg:hover{
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.text1{
+  margin: 0;
+    padding-top: 150px;
+}
+
+.hovertitles{
+    color: white;
+    font-size: 25px;
+    font-family: roboto;
+}
+/**
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} **/
+
+/**** END OF HOVER TEST **************************/
+    
+    
 /* The Modal (background) */
 .modal {
   display: none;
@@ -697,14 +763,14 @@ img.hover-shadow {
 .demo:hover {
   opacity: 1;
 }
-
+/**
 img.hover-shadow {
   transition: 0.3s;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} **/
     
 }
     
@@ -954,13 +1020,13 @@ img.hover-shadow {
 .demo:hover {
   opacity: 1;
 }
-
+/**
 img.hover-shadow {
   transition: 0.3s;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} **/
     
 }
