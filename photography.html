@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lana smith design</title>
+        <link rel="stylesheet" type="text/css" href="css/lanasdesignstyle.css">
+        <link href="font/Roboto-Regular.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/qky4biu.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+         <script src="js/script.js" defer></script>
+        <script src="js/graphicdesign.js" defer></script>
+        <meta name="viewport" content="width=320, initial-scale=1.0">
+        <link rel="icon" href="img/lanalogocolor.ico">
+    </head>
+    <body>
+    <header>
+    <!-- NAV BAR -->
+    <div class="navbarstatic">
+       
+        <a href="index.html"><img class="logoicon" src="img/android-chrome-512x512.png"></a>
+        <div class="sitenamediv">
+            <a href="index.html"><p class="sitename">lana smith design</p></a>
+        </div>
+        
+        <div class="biggernavcontainer">
+        <div class="mnavcontainer" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        </div>
+       <!-- side nav -->
+       <div id="mySidenav" class="sidenav">
+          <a class="sidenava" href="graphicdesign.html">graphic design</a>
+          <a class="sidenava" href="animationvideo.html">animation & video</a>
+          <a class="sidenava" href="photography.html">photography</a>
+         <!-- <a class="sidenava" href="#">ux design</a>
+          <a class="sidenava" href="#">web design</a> -->
+        </div>
+        <!-- long nav -->
+        <div class="longnav">
+          <a class="longnava" href="graphicdesign.html">graphic design</a>
+          <a class="longnava"href="animationvideo.html">animation & video</a>
+          <a class="longnava"href="photography.html">photography</a>
+         <!-- <a class="longnava"href="#">ux design</a>
+          <a class="longnava"href="#">web design</a> -->
+        </div>
+        
+        
+    </div>
+    </header>
+       
+    <!-----------------------------------BODY -->   
+      
+      <div class="space"></div>
+      
+       <h2 class="pagetitle">photography</h2>
+       
+       
+<!-------------------------------------------------------------------video previews---->
+<div class="row">
+  <div class="columnimg" >
+    <img src="photography/Contessa%202019.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class=" cursor hovertest">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(1)"> 
+        <div class="text1">
+        <p class="hovertitles">Contessa 2019</p> 
+        </div>
+    </div>
+    
+  </div>
+   
+   <div class="columnimg">
+    <img src="photography/Contessa%202018.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(2)"> 
+        <div class="text1">
+        <p class="hovertitles">Contessa 2018</p> 
+        </div>
+    </div>    
+  </div>
+  
+  <div class="columnimg">
+    <img src="photography/Prom%202019.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(3)"> 
+        <div class="text1">
+        <p class="hovertitles">Prom</p> 
+        </div>
+    </div>
+  </div>
+  
+  
+  <div class="columnimg">
+    <img src="photography/Engagment.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(4)"> 
+        <div class="text1">
+        <p class="hovertitles">Engagement</p> 
+        </div>
+    </div>
+  </div>  
+   
+    <div class="columnimg">
+    <img src="photography/IMG_0837x.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(5)"> 
+        <div class="text1">
+        <p class="hovertitles">Say Cheese</p> 
+        </div>
+    </div>
+  </div>
+
+   <div class="columnimg">
+    <img src="photography/IMG_4915x.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(6)"> 
+        <div class="text1">
+        <p class="hovertitles">Winter Kate</p> 
+        </div>
+    </div>
+  </div>
+   
+    <div class="columnimg">
+    <img src="photography/IMG_7714x.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+    <!--hover-shadow & image description-->
+    <div class="text1container" onclick="openModal();currentSlide(7)"> 
+        <div class="text1">
+        <p class="hovertitles">Wild</p> 
+        </div>
+    </div>
+  </div>
+  
+    
+</div>
+<!-- these are bigger photos -->
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+  
+  <!-------------------------------------------------------------------High Arctic video---->
+   <div class="mySlides bigimage">
+    <div class="numbertext"></div>
+
+      <a href="photography/IMG_8223-edit(2).jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_8223-edit(2)s.jpg">
+       </a>
+       
+       <a href="photography/IMG_7662-edit(2).jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7662-edit(2)s.jpg">
+       </a>
+       
+       <a href="photography/IMG_8119-edit(4)" target="_blank">
+       <img class="verticalimage" src="photography/IMG_8119-edit(4)s.jpg">
+       </a>
+       
+       <a href="photography/IMG_8526-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_8526-edits.jpg">
+       </a>
+       
+       <a href="photography/IMG_7726-edit(1).jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7726-edit(1)s.jpg">
+       </a>
+       
+       <a href="photography/IMG_7561-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7561-edits.jpg">
+       </a>
+       
+        
+        <p class="photo-caption">
+        Contessa 2019
+        </p> 
+        
+        <div class="space2"></div>
+    </div>
+   
+   
+   <!-------------------------------------------------------------------Ocean Noise Strategy---->
+    <div class="mySlides bigimage">
+      <div class="numbertext"><!-- you can number the photos here --></div>
+      
+      
+      <a href="photography/Carmen02.jpg" target="_blank">
+       <img class="verticalimage" src="photography/Carmen02s.jpg">
+       </a>
+       
+       <a href="photography/Kim02.jpg" target="_blank">
+       <img class="verticalimage" src="photography/Kim02s.jpg">
+       </a>
+       
+       <a href="photography/Sarah.jpg" target="_blank">
+       <img class="verticalimage" src="photography/Sarahs.jpg">
+       </a>
+       
+        
+        <p class="photo-caption">
+        Contessa 2018
+        </p>
+        
+        
+        <div class="space2"></div>
+    </div>
+
+   <!-------------------------------------------------------------------CSSV animation---->
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      
+        <a href="photography/IMG_7130-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7130-edits.jpg">
+       </a>
+       
+       <a href="photography/IMG_7174-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7174-edits.jpg">
+       </a>
+       
+       <a href="photography/IMG_7130-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7271-edits.jpg">
+       </a>
+       
+       <a href="photography/IMG_7031-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7031-edits.jpg">
+       </a>
+       
+       <a href="photography/IMG_7095-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7095-edits.jpg">
+       </a>
+        
+        
+        <a href="photography/IMG_7041-edit.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7041-edits.jpg">
+       </a>
+        
+        
+        <p class="photo-caption">
+        Prom
+        </p>
+        
+        
+        <div class="space2"></div>
+    </div>
+
+   
+   <!-------------------------------------------------------------------Seasonal Closures---->
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      
+        <a href="photography/45.jpg" target="_blank">
+       <img class="verticalimage" src="photography/45s.jpg">
+       </a>
+       
+       <a href="photography/05.jpg" target="_blank">
+       <img class="verticalimage" src="photography/05s.jpg">
+       </a>
+       
+       <a href="photography/49.jpg" target="_blank">
+       <img class="verticalimage" src="photography/49s.jpg">
+       </a>
+       
+       <a href="photography/67.jpg" target="_blank">
+       <img class="verticalimage" src="photography/67s.jpg">
+       </a>
+       
+        
+        <p class="photo-caption">
+        Engagement
+        </p>
+        
+        <div class="space2"></div>
+        
+    </div>
+    
+    
+    <!-------------------------------------------------------------------DFO shareable products---->
+    <div class="mySlides bigimage">
+    <div class="numbertext"></div>
+    
+     <a href="photography/IMG_0837.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_0837s.jpg">
+       </a>
+       
+       <a href="photography/IMG_0929.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_0929s.jpg">
+       </a>
+       
+       <a href="photography/IMG_0959.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_0959s.jpg">
+       </a>
+       
+        
+        <p class="photo-caption">
+        Say Cheese
+        </p>
+        
+        
+        
+        <div class="space2"></div>
+        
+    </div>
+    
+    
+    <!-------------------------------------------------------------------Privy Council products---->
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      
+        <a href="photography/IMG_4915.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_4915s.jpg">
+       </a>
+       
+       <a href="photography/IMG_4875.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_4875s.jpg">
+       </a>
+       
+       <a href="photography/IMG_4944.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_4944s.jpg">
+       </a>
+        
+        <p class="photo-caption">
+        Winter Kate
+        </p>
+        
+        
+        <div class="space2"></div>
+        
+    </div>
+    
+    <!-------------------------------------------------------------------small projects---->
+    <div class="mySlides bigimage">
+      <div class="numbertext"></div>
+      
+      <a href="photography/IMG_7714.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_7714s.jpg">
+       </a>
+       
+       <a href="photography/IMG_8670.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_8670s.jpg">
+       </a>
+       
+       <a href="photography/IMG_8721.jpg" target="_blank">
+       <img class="verticalimage" src="photography/IMG_8721s.jpg">
+       </a>
+        
+        <p class="photo-caption">
+        Wild
+        </p>
+        
+        <div class="space2"></div>
+        
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+ 
+    <div class="columnimg">
+      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="columnimg">
+      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">        
+    </div>
+    -->
+  </div>
+</div>
+       
+       
+       
+        <footer>
+            <div class="footertextcontainer">
+            <p class="footertext">Copyright © 2020 Lana Smith. All rights reserved.</p>
+        </div>
+        </footer>
+    </body>
+</html>
