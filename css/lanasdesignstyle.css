@@ -339,6 +339,12 @@ body{
   max-width: 1200px;
 }
 
+/* Link Stlyes */
+.modal-links {
+    
+    color: #f3746e;
+}
+
 /********************** image discriptions *******/
 
 
@@ -366,6 +372,7 @@ body{
         font-size: 15px;
         font-family: 'Roboto', sans-serif;
     }
+
 
     .space2{
         margin-top: 150px;
